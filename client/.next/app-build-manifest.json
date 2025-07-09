@@ -1,0 +1,81 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/markets/forex/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/forex/page.js"
+    ],
+    "/markets/stocks/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/stocks/page.js"
+    ],
+    "/markets/crude-oil/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/crude-oil/page.js"
+    ],
+    "/markets/indices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/indices/page.js"
+    ],
+    "/markets/cryptocurrency/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/cryptocurrency/page.js"
+    ],
+    "/platforms-tools/get-started/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/get-started/page.js"
+    ],
+    "/education/lessons/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/lessons/page.js"
+    ],
+    "/education/live-virtual-events/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/live-virtual-events/page.js"
+    ],
+    "/education/glossary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/glossary/page.js"
+    ],
+    "/education/quiz/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/quiz/page.js"
+    ],
+    "/education/courses/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/courses/page.js"
+    ],
+    "/markets/overview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/overview/page.css",
+      "static/chunks/app/markets/overview/page.js"
+    ],
+    "/markets/commodities/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/commodities/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ]
+  }
+}
