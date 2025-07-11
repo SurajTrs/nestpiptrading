@@ -47,9 +47,10 @@ const MainNavbar: React.FC = () => {
       <div className="container-fluid">
         <Link href="/" className="navbar-brand d-flex align-items-center">
           <img
-            src="/logo.png"
+            src="/images/logo.png"
             alt="NestPip Logo"
-            height="40"
+            height="250"
+            width="140" 
             className="me-2"
           />
         </Link>

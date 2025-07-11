@@ -1,10 +1,4 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/education/courses/page": "app/education/courses/page.js",
-  "/markets/indices/page": "app/markets/indices/page.js",
-  "/markets/cryptocurrency/page": "app/markets/cryptocurrency/page.js",
-  "/markets/overview/page": "app/markets/overview/page.js",
-  "/markets/commodities/page": "app/markets/commodities/page.js",
-  "/markets/crude-oil/page": "app/markets/crude-oil/page.js",
-  "/education/quiz/page": "app/education/quiz/page.js"
+  "/accounts/standard/page": "app/accounts/standard/page.js"
 }

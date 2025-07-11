@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 const cryptoData = [
@@ -10,6 +12,12 @@ const cryptoData = [
   { name: 'Litecoin ($)', sell: 88.74, buy: 89.24, spread: 0.5 },
   { name: 'Ripple ($)', sell: 226.105, buy: 226.805, spread: 0.7 },
 ];
+
+// Consistent formatter for numbers
+const formatNumber = new Intl.NumberFormat('en-US', {
+  minimumFractionDigits: 1,
+  maximumFractionDigits: 3,
+});
 
 const CryptoPricingTable = () => {
   return (
@@ -36,10 +44,10 @@ const CryptoPricingTable = () => {
               {cryptoData.map((crypto, index) => (
                 <tr key={index} style={{ borderBottom: '1px solid #FFB76B' }}>
                   <td className="fw-semibold">{crypto.name}</td>
-                  <td>{crypto.sell.toLocaleString()}</td>
-                  <td>{crypto.buy.toLocaleString()}</td>
+                  <td>{formatNumber.format(crypto.sell)}</td>
+                  <td>{formatNumber.format(crypto.buy)}</td>
                   <td className="fw-bold" style={{ color: '#FF7A00' }}>
-                    {crypto.spread}
+                    {formatNumber.format(crypto.spread)}
                   </td>
                 </tr>
               ))}

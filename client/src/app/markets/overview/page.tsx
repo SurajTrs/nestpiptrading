@@ -2,6 +2,7 @@
 'use client';
 
 
+import CryptoPricingTable from '@/components/Markets/market/Cryptocurrency/CryptoPricingTable';
 import OverviewBanner from '@/components/Markets/overview/OverviewBanner';
 import SpreadsTable from '@/components/Markets/overview/SpreadsTable';
 import TradePlatforms from '@/components/Markets/overview/TradePlatforms';
@@ -15,6 +16,7 @@ const IndicesPage = () => (
   <OverviewBanner/>
   <TradePlatforms/>
   <SpreadsTable/>
+  <CryptoPricingTable/>
   </main>
   
 );

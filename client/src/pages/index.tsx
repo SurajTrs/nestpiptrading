@@ -21,6 +21,7 @@ import SpreadsTable from '../components/Markets/overview/SpreadsTable';
 import NewsCards from '../components/NewsCards';
 import TradeItBanner from '../components/TradeItBanner';
 import Footer from './Footer';
+import CryptoPricingTable from '@/components/Markets/market/Cryptocurrency/CryptoPricingTable';
 
 const HomePage: React.FC = () => {
   return (
@@ -44,7 +45,7 @@ const HomePage: React.FC = () => {
       <TradingViewExtraFeatures />
       <TradingViewMarketInfo />
       <TradingViewConnectBanner />
-
+<CryptoPricingTable/>
        <WhyForex />
       <HowToGetStarted />
       <BenefitsSection />

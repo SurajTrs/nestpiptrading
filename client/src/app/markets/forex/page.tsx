@@ -22,10 +22,14 @@ const ForexBannerPage = () => (
   <main>
    
     <ForexBanner/>
-    <ForexExplained/>
     <ForexFeatures/>
+    <ForexExplained/>
+     <ForexTradingInfo/>
+    
+
     <WhyForex/>
-    <ForexTradingInfo/>
+    
+   
     <ForexTradingTools/>
     <FxPricingTable/>
     <FxTradingApps/>

@@ -16,9 +16,10 @@ import React from 'react';
 const IndicesPage = () => (
   <main>
    <IndicesBanner/>
+      <IndicesFeatures/>
+
    <IndicesExplained/>
   
-   <IndicesFeatures/>
    <IndicesNewsAndCalendar/>
    <IndicesPricingTable/>
    <IndicesTradingInfo/>

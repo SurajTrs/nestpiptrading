@@ -6,19 +6,21 @@ const LandingSection: React.FC = () => {
       <div className="landing-section">
       
 
-        <div className="text-section">
+        <div className="text-section align-left">
           <h1 className="headline text-white">
-            BUILT FOR TRADERS BACKED BY EXPERTS
+            Trade Global Markets Online with Nestpip – Forex, Crypto, Stocks & More in One Platform
           </h1>
           <p className="paragraph">
-            At Nestpip, we take care of the backend, support, risk, and compliance
-            so you can focus on growing your trading community.
+            Your One-Stop Shop for Trading in All Global Financial Markets
           </p>
           <ul className="features-list text-white">
-            <li>Full white-label solutions</li>
-            <li>Multi-language support</li>
-            <li>Risk management tools</li>
-            <li>Dedicated account managers</li>
+         
+  <li>Trade a wide range of assets including <strong>Forex</strong>, <strong>Cryptocurrencies</strong>, <strong>Stocks</strong>, <strong>Indices</strong>, and <strong>Commodities</strong> — all in one place.</li>
+  <li>Designed for everyone — from <strong>beginners</strong> to <strong>professional traders</strong>.</li>
+  <li>Access <strong>500+ top trading instruments</strong> across global markets in <strong>real time</strong>.</li>
+  <li><strong>Reliable</strong>, <strong>secure</strong>, and built with the tools you need to succeed in modern trading.</li>
+
+
           </ul>
         </div>
 
@@ -47,9 +49,7 @@ const LandingSection: React.FC = () => {
         <div className="decor-topright">
           {[...Array(25)].map((_, i) => <div key={`top-${i}`} />)}
         </div>
-        <div className="decor-bottomleft">
-          {[...Array(25)].map((_, i) => <div key={`bot-${i}`} />)}
-        </div>
+      
       </div>
     </section>
   );

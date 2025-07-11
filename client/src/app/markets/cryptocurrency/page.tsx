@@ -4,8 +4,6 @@ import CryptoBanner from '@/components/Markets/market/Cryptocurrency/CryptoBanne
 import CryptoCFDFeature from '@/components/Markets/market/Cryptocurrency/CryptoCFDFeature';
 import CryptoDisclaimer from '@/components/Markets/market/Cryptocurrency/CryptoDisclaimer';
 import CryptoExplained from '@/components/Markets/market/Cryptocurrency/CryptoExplained';
-import CryptoMarketPricing from '@/components/Markets/market/Cryptocurrency/CryptoMarketPricing';
-import CryptoMarketTable from '@/components/Markets/market/Cryptocurrency/CryptoMarketTable';
 import CryptoNewsAndCalendar from '@/components/Markets/market/Cryptocurrency/CryptoNewsAndCalendar';
 import CryptoPricingTable from '@/components/Markets/market/Cryptocurrency/CryptoPricingTable';
 import CryptoRange from '@/components/Markets/market/Cryptocurrency/CryptoRange';
@@ -21,12 +19,11 @@ const cryptocurrencyPage = () => (
    
  <CryptoBanner/>
   <CryptoCFDFeature/>
-  <CryptoDisclaimer/>
+
   <CryptoExplained/>
-  <CryptoMarketPricing/>
-  <CryptoMarketTable/>
   <CryptoNewsAndCalendar/>
   <CryptoPricingTable/>
+    <CryptoDisclaimer/>
   <CryptoRange/>
   <PopularCryptos/>
   <CryptoTradingInfo/>
