@@ -4,7 +4,7 @@ const CryptoTradingInfo = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
       <div className="container text-center">
-        <h2 className="fw-bold mb-5" style={{ color: '#FF7A00' }}>
+        <h2 className="fw-bold mb-5" style={{ color: '#f24521' }}>
           Understanding Cryptocurrencies
         </h2>
 

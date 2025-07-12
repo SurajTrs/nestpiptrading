@@ -4,53 +4,75 @@ import { FaDollarSign, FaPoundSign, FaClock } from 'react-icons/fa';
 
 const ForexExplained = () => {
   return (
-    <section style={{ backgroundColor: '#FF7A00', color: 'white', padding: '4rem 0' }}>
+    <section style={{ backgroundColor: '#FFF7F0', padding: '4rem 0' }}>
       <Container>
         <Row className="align-items-center">
+          {/* Left Text Section */}
           <Col md={6}>
-            <h2 className="fw-bold mb-4">Forex explained</h2>
+            <h2 className="fw-bold mb-4" style={{color:'#f24521'}}>Forex Explained</h2>
 
-            <div className="d-flex align-items-center mb-3">
+            {/* Snapshot */}
+            <div className="d-flex align-items-start mb-4">
               <div
                 className="me-3 p-2 rounded-circle"
                 style={{
-                  backgroundColor: 'white',
-                  color: '#00365A',
-                  width: '40px',
-                  height: '40px',
+                  backgroundColor: '#006400',
+                  color: '#ffffff',
+                  width: '42px',
+                  height: '42px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                 }}
               >
                 <FaDollarSign />
-                <FaPoundSign style={{ marginLeft: '2px' }} />
+                <FaPoundSign style={{ marginLeft: '3px' }} />
               </div>
               <div>
-                <strong>A quick snapshot of FX</strong>
-                <p className="mb-0 small">
-                  Forex trading is the act of speculating on the movement of exchange prices by buying one currency while simultaneously selling another.
+                <h6 className="fw-semibold mb-1"style={{color:'#f24521'}}>A Quick Snapshot of FX</h6>
+                <p className="mb-0 small text-secondary">
+                  Forex trading involves speculating on the movement of exchange rates by buying one currency while selling another simultaneously.
                 </p>
               </div>
             </div>
 
-            <div className="mb-3">
-              <strong>Markets — There’s no larger market</strong>
-              <p className="mb-0 small">
-                With an average turnover in excess of $7.5 trillion a day*, currency prices are constantly fluctuating – creating endless trading opportunities in the world’s most traded market.
-                <br />
-                <small>*According to BIS</small>
-              </p>
-            </div>
-
-            <div className="d-flex align-items-center mb-4">
+            {/* Largest Market */}
+            <div className="d-flex align-items-start mb-4">
               <div
                 className="me-3 p-2 rounded-circle"
                 style={{
-                  backgroundColor: 'white',
-                  color: '#00365A',
-                  width: '40px',
-                  height: '40px',
+                  backgroundColor: '#006400',
+                  color: '#ffffff',
+                  width: '42px',
+                  height: '42px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  fontSize: '0.95rem',
+                }}
+              >
+                FX
+              </div>
+              <div>
+                <h6 className="fw-semibold mb-1 "style={{color:'#f24521'}}>The World’s Largest Market</h6>
+                <p className="mb-0 small text-secondary">
+                  With a daily trading volume exceeding <strong>$7.5 trillion</strong>*, forex is the most liquid and active market globally — offering unlimited opportunities for traders. 
+                  <br />
+                  <small className="text-muted">Based on BIS data</small>
+                </p>
+              </div>
+            </div>
+
+            {/* 24/5 Market */}
+            <div className="d-flex align-items-start mb-4">
+              <div
+                className="me-3 p-2 rounded-circle"
+                style={{
+                  backgroundColor: '#006400',
+                  color: '#ffffff',
+                  width: '42px',
+                  height: '42px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -59,13 +81,14 @@ const ForexExplained = () => {
                 <FaClock />
               </div>
               <div>
-                <strong>Forex never sleeps</strong>
-                <p className="mb-0 small">
-                  As a globally traded market, the foreign exchange market is open 24 hours a day, five days a week (Sunday 5PM to Friday 5PM).
+                <h6 className="fw-semibold mb-1 "style={{color:'#f24521'}}>Forex Never Sleeps</h6>
+                <p className="mb-0 small text-secondary">
+                  The global forex market runs 24 hours a day, five days a week — opening Sunday 5 PM and closing Friday 5 PM (EST), so you can trade whenever it suits you.
                 </p>
               </div>
             </div>
 
+            {/* Call to Action */}
             <Button
               href="#open-account"
               style={{
@@ -80,6 +103,7 @@ const ForexExplained = () => {
             </Button>
           </Col>
 
+          {/* Right Image Section */}
           <Col md={6} className="text-center mt-4 mt-md-0">
             <img
               src="/assets/forex-explained-banner.png"

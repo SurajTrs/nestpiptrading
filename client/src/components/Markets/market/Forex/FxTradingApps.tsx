@@ -1,101 +1,64 @@
+'use client';
+
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const features = [
-  {
-    icon: '/icons/chart-icon.svg',
-    alt: 'TradingView Charts',
-    title: 'TradingView Charts',
-    description: '80+ indicators, 11 chart types and 14 timeframes',
-  },
-  {
-    icon: '/icons/analytics-icon.svg',
-    alt: 'Performance Analytics',
-    title: 'Performance Analytics',
-    description: 'Analyze your decision-making with the latest behavioural science technology',
-  },
-  {
-    icon: '/icons/alerts-icon.svg',
-    alt: 'Total Control',
-    title: 'Total Control',
-    description: 'Customize your notifications and alerts to stay on top of the markets',
-  },
-  {
-    icon: '/icons/market-info-icon.svg',
-    alt: 'Trading Research',
-    title: 'Trading Research',
-    description: 'Access integrated market analysis, Reuters news & a full economic calendar',
-  },
-];
-
-const FxTradingApps: React.FC = () => {
+const TradingPlatformsSection: React.FC = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
-      <div className="container">
-        <div className="row align-items-center text-center text-md-start">
-          {/* Left Side Image */}
-          <div className="col-md-6 mb-4 mb-md-0">
+      <Container>
+        <Row className="align-items-center flex-column-reverse flex-md-row">
+          {/* Left Image */}
+          <Col md={6} className="text-center mt-4 mt-md-0">
             <img
-              src="/assets/trading-apps-preview.png"
-              alt="FX Trading Apps"
-              className="img-fluid rounded-4 shadow-sm"
-              style={{ maxHeight: '500px' }}
+              src="/images/trading-platforms.png" // Replace with actual path
+              alt="NestPip Trading Platforms"
+              className="img-fluid rounded shadow"
+              style={{ maxWidth: '90%' }}
             />
-          </div>
+          </Col>
 
-          {/* Right Side Content */}
-          <div className="col-md-6">
-            <h2 className="fw-bold mb-4" style={{ color: '#FF7A00' }}>
-              Award-winning FX trading apps
+          {/* Right Text */}
+          <Col md={6}>
+            <h2 className="fw-bold mb-4" style={{ color: '#f24521' }}>
+              Powerful Trading Platforms – Access the Best Forex Platform
             </h2>
-            <p className="text-muted mb-4" style={{ fontSize: '1.1rem' }}>
-              Designed for instant control wherever you are, enjoy one-swipe trading, exclusive trading analysis tools, and a customizable layout to suit your trading style.
+            <p style={{ fontSize: '1rem', color: '#333' }}>
+              We offer a suite of powerful, easy-to-use trading platforms tailored to meet the needs of all
+              traders. No matter your device or location, <strong>NestPip</strong> keeps you connected.
             </p>
 
-            {/* Feature List */}
-            <div className="d-flex flex-column gap-3">
-              {features.map(({ icon, alt, title, description }, idx) => (
-                <div className="d-flex align-items-start" key={idx}>
-                  <img src={icon} alt={alt} height={36} className="me-3" />
-                  <div>
-                    <h6 className="fw-semibold mb-1">{title}</h6>
-                    <small className="text-muted">{description}</small>
-                  </div>
-                </div>
-              ))}
+            <div className="mb-4">
+              <h5 className="fw-semibold" style={{ color: '#f24521' }}>Web Platform</h5>
+              <ul className="ps-3" style={{ color: '#555', fontSize: '0.95rem' }}>
+                <li>Trade directly through your browser</li>
+                <li>No software download required</li>
+                <li>One-click order execution and intuitive interface</li>
+              </ul>
             </div>
 
-            {/* Buttons */}
-            <div className="mt-4 d-flex flex-wrap gap-3">
-              <a
-                href="#"
-                className="btn"
-                style={{
-                  backgroundColor: '#FF7A00',
-                  color: '#fff',
-                  padding: '0.6rem 1.5rem',
-                  fontWeight: 500,
-                  borderRadius: '12px',
-                }}
-              >
-                Choose your mobile platform
-              </a>
-              <a
-                href="#"
-                className="btn btn-outline-dark"
-                style={{
-                  padding: '0.6rem 1.5rem',
-                  fontWeight: 500,
-                  borderRadius: '12px',
-                }}
-              >
-                Try a demo account
-              </a>
+            <div className="mb-4">
+              <h5 className="fw-semibold" style={{ color: '#f24521' }}>Mobile App (Android & iOS)</h5>
+              <ul className="ps-3" style={{ color: '#555', fontSize: '0.95rem' }}>
+                <li>Trade on-the-go with our secure, responsive app</li>
+                <li>Push notifications for market alerts</li>
+                <li>Instant deposit/withdrawal options</li>
+              </ul>
             </div>
-          </div>
-        </div>
-      </div>
+
+            <div>
+              <h5 className="fw-semibold" style={{ color: '#f24521' }}>Desktop (MT4/MT5 Support)</h5>
+              <ul className="ps-3" style={{ color: '#555', fontSize: '0.95rem' }}>
+                <li>Access advanced charting tools and technical indicators</li>
+                <li>Automate strategies with Expert Advisors (EAs)</li>
+                <li>Backtesting and custom scripts for professionals</li>
+              </ul>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 };
 
-export default FxTradingApps;
+export default TradingPlatformsSection;

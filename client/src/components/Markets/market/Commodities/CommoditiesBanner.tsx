@@ -19,9 +19,9 @@ const MarketCategories: React.FC = () => {
   const currentMarket = pathname?.split('/').pop()?.replace(/-/g, ' ').toLowerCase();
 
   const heroData = {
-    title: 'Trade Commodities with Confidence',
+    title: 'Trade Commodities with Confidence – Start with NestPip',
     description:
-      'Gain access to popular commodities like oil, natural gas, and agricultural goods. Diversify your trading with physical assets that drive the global economy.',
+      'At NestPip, we empower traders to explore global commodity markets with powerful tools, competitive pricing, and expert support. Whether you are looking to trade crude oil, gold, silver, or natural gas, we provide a seamless and secure trading environment to help you make smart decisions and grow your portfolio.',
     imgSrc: '/assets/commodities-banner.png', 
     imgAlt: 'Commodities trading banner',
   };

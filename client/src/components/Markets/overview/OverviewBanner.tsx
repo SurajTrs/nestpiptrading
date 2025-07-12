@@ -19,9 +19,9 @@ const MarketCategories: React.FC = () => {
   const currentMarket = pathname?.split('/').pop()?.replace(/-/g, ' ').toLowerCase();
 
   const heroData = {
-    title: 'Explore All Markets in One Place',
+    title: 'Your One-Stop Shop for Trading in All Global Financial Markets',
     description:
-      'Welcome to the market overview page. Dive into Forex, Stocks, Indices, Commodities, and more. Stay informed and make better trading decisions.',
+      'Nestpip is a smart and safe online trading platform that lets you trade many different assets, such as Forex, Crypto, Stocks, Indices, and Commodities, all in one place.',
     imgSrc: '/assets/overview-banner.png', // Update with your actual image path
     imgAlt: 'Market overview banner',
   };

@@ -1,4 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/accounts/standard/page": "app/accounts/standard/page.js"
+  "/markets/forex/page": "app/markets/forex/page.js",
+  "/markets/usd-chf/page": "app/markets/usd-chf/page.js",
+  "/platforms-tools/mobile-app/page": "app/platforms-tools/mobile-app/page.js",
+  "/markets/cryptocurrency/page": "app/markets/cryptocurrency/page.js",
+  "/markets/wall-street/page": "app/markets/wall-street/page.js"
 }

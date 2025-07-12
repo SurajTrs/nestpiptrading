@@ -4,8 +4,8 @@ const CryptoDisclaimer = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
       <div className="container">
-        <div className="p-4 p-md-5 rounded-4 shadow-sm" style={{ backgroundColor: '#FFF3E0' }}>
-          <h3 className="fw-bold mb-3" style={{ color: '#FF7A00' }}>
+        <div className="p-4 p-md-5 rounded-4 shadow-sm" style={{ backgroundColor: '#ffead3ff' }}>
+          <h3 className="fw-bold mb-3" style={{ color: '#f24521' }}>
             Cryptocurrency Trading Disclaimer
           </h3>
           <p className="text-muted" style={{ fontSize: '0.95rem', lineHeight: '1.75' }}>

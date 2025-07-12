@@ -67,11 +67,10 @@ const UsdChfBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade USD/CHF – The Swiss Connection
+Nestpip is the Best Forex Trading Platform for Trading USD/CHF
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Explore one of the most stable forex pairs, representing the U.S. dollar against the Swiss franc – a safe haven currency.
-            </p>
+The USD/CHF pair (U.S. Dollar / Swiss Franc) is a one-of-a-kind and very liquid forex pair that is great for intermediate traders. We help you trade the USD/CHF pair effectively at Nestpip by giving you access to comprehensive tools, institutional-grade pricing, and fast execution.            </p>
             <ul
               className="text-start"
               style={{

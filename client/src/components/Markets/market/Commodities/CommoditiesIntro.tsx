@@ -1,94 +1,46 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const CommoditiesIntro = () => {
+const CommodityTrading = () => {
   return (
-    <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
-      <div className="container text-center">
-        <h2 className="fw-bold mb-5" style={{ color: '#FF7A00' }}>
-          What are Commodities?
-        </h2>
+    <section style={{ backgroundColor: '#FFF7F0', padding: '4rem 0' }}>
+      <Container>
+        <Row className="align-items-center">
+          {/* Left Image */}
+          <Col md={6} className="text-center mb-4 mb-md-0">
+            <img
+              src="/assets/commodity-trading-banner.png"
+              alt="Commodity Trading Visual"
+              className="img-fluid rounded-4 shadow"
+              style={{ maxWidth: '90%' }}
+            />
+          </Col>
 
-        <div className="row justify-content-center g-4">
-          {/* Card 1: What are commodities */}
-          <div className="col-md-4">
-            <div className="d-flex flex-column align-items-center h-100 p-4 rounded-4 shadow-sm bg-white">
-              <img
-                src="/icons/commodity-what.svg"
-                alt="What are Commodities"
-                height={64}
-                className="mb-3"
-                style={{
-                  backgroundColor: '#FFEBD9',
-                  borderRadius: '50%',
-                  padding: '1rem',
-                }}
-              />
-              <h5 className="fw-semibold mb-2">What are commodities?</h5>
-              <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
-                Everything you need to know about popular commodities like gold, oil, coffee and more – including how to trade them.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 2: Why trade commodities */}
-          <div className="col-md-4">
-            <div className="d-flex flex-column align-items-center h-100 p-4 rounded-4 shadow-sm bg-white">
-              <img
-                src="/icons/commodity-why.svg"
-                alt="Why Trade Commodities"
-                height={64}
-                className="mb-3"
-                style={{
-                  backgroundColor: '#FFEBD9',
-                  borderRadius: '50%',
-                  padding: '1rem',
-                }}
-              />
-              <h5 className="fw-semibold mb-2">Why trade commodities?</h5>
-              <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
-                Gold has historically been a safe haven asset in times of market uncertainty. Learn more about the benefits of gold and other commodities.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 3: How to trade commodities */}
-          <div className="col-md-4">
-            <div className="d-flex flex-column align-items-center h-100 p-4 rounded-4 shadow-sm bg-white">
-              <img
-                src="/icons/commodity-how.svg"
-                alt="How to Trade Commodities"
-                height={64}
-                className="mb-3"
-                style={{
-                  backgroundColor: '#FFEBD9',
-                  borderRadius: '50%',
-                  padding: '1rem',
-                }}
-              />
-              <h5 className="fw-semibold mb-2">How to trade commodities</h5>
-              <p className="text-muted mb-3" style={{ fontSize: '0.95rem' }}>
-                Want to know how to trade oil using CFDs? This section breaks down every aspect of your first trade.
-              </p>
-              
-            </div>
-            <a
-                href="#open-account"
-                className="btn btn-sm"
-                style={{
-                  backgroundColor: '#006400',
-                  color: '#fff',
-                  borderRadius: '10px',
-                  padding: '0.5rem 1.5rem',
-                  fontWeight: 500,
-                }}
-              >
-                Open an Account
-              </a>
-          </div>
-        </div>
-      </div>
+          {/* Right Content */}
+          <Col md={6}>
+            <h2 className="fw-bold mb-4" style={{ color:'#f24521' }}>What is Commodity Trading?</h2>
+            <p className="text-secondary mb-3" style={{ fontSize: '1rem' }}>
+              Commodity trading involves buying and selling raw materials like metals, energy, and agricultural products.
+              These physical goods are traded on global exchanges, and their prices are influenced by supply and demand,
+              geopolitical factors, and economic trends.
+            </p>
+            <p className="text-secondary mb-4" style={{ fontSize: '1rem' }}>
+              With <strong>NestPip</strong>, you can speculate on the price movements of popular commodities without
+              owning the physical assets. Our platform simplifies commodity trading and provides you with access to:
+            </p>
+            <ul className=" mb-4" style={{ fontSize: '1rem', paddingLeft: '1.2rem', color:'#f24521' }}>
+              <li>📈 Real-time market data</li>
+              <li>📊 Advanced charting tools</li>
+              <li>⚡ Instant order execution</li>
+            </ul>
+            <p className="text-secondary" style={{ fontSize: '1rem' }}>
+              Whether you’re an experienced trader or just starting out, NestPip helps you understand market dynamics and trade with confidence.
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 };
 
-export default CommoditiesIntro;
+export default CommodityTrading;

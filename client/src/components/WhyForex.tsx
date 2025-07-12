@@ -1,58 +1,59 @@
+'use client';
+
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const WhyForex: React.FC = () => (
-  <section style={{ backgroundColor: '#FFF7F0' }} className="py-5">
-    <div className="container">
-      <h3 className="text-center fw-bold mb-4" style={{ color: '#f24521' }}>
-        Why Choose NestPip?
-      </h3>
-      <p className="mb-5 text-center text-muted" style={{ maxWidth: '720px', margin: '0 auto' }}>
-        With over two decades of experience, NestPip empowers traders with powerful platforms,
-        expert tools, and unbeatable pricing—helping you succeed in global financial markets.
-      </p>
+const WhyChooseNestPip: React.FC = () => {
+  return (
+    <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
+      <Container>
+        <Row className="align-items-center">
+             <Col md={6} className="text-center">
+            <img
+              src="/images/why-nestpip.png" // replace with your actual image
+              alt="Why Choose NestPip"
+              className="img-fluid rounded shadow"
+              style={{ maxWidth: '90%' }}
+            />
+          </Col>
+          {/* Left Text */}
+          <Col md={6}>
+            <h2 className="fw-bold mb-4" style={{ color: '#f24521' }}>
+              Why Choose NestPip? The Best Forex Broker You Can Trust
+            </h2>
+            <p style={{ fontSize: '1rem', color: '#333' }}>
+              Nestpip is not just another trading platform. We’re a globally respected forex broker known for speed, security, education, and dedicated support. Here’s what sets us apart:
+            </p>
 
-      <div className="row justify-content-center">
-        {[
-          {
-            img: '/icons/metatrader.svg',
-            alt: 'MetaTrader',
-            title: 'MetaTrader Support',
-            desc: 'Trade on the world’s most trusted platform with charting, bots, and precision execution.',
-          },
-          {
-            img: '/icons/pricing.svg',
-            alt: 'Pricing',
-            title: 'Competitive Pricing',
-            desc: 'Tight spreads, low commissions, and zero hidden fees to boost your profitability.',
-          },
-          {
-            img: '/icons/tools.svg',
-            alt: 'Advanced Tools',
-            title: 'Exclusive Tools',
-            desc: 'Access smart analytics, trade signals, and risk control tools that elevate your strategy.',
-          },
-        ].map(({ img, alt, title, desc }, i) => (
-          <div key={i} className="col-md-10 mb-4">
-            <div className="d-flex align-items-start">
-              <img
-                src={img}
-                alt={alt}
-                height={48}
-                className="me-4"
-                style={{ filter: 'drop-shadow(1px 1px 1px rgba(0,0,0,0.1))' }}
-              />
-              <div>
-                <h5 className="fw-bold mb-1" style={{ color: '#f24521' }}>
-                  {title}
-                </h5>
-                <p className="text-muted mb-0">{desc}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-);
+            <ul style={{ color: '#555', fontSize: '0.95rem' }} className="ps-3">
+              <li>
+                <strong style={{ color: '#f24521' }}>Regulated & Transparent:</strong> Fully compliant with financial regulations. Client funds are held in secure, segregated accounts.
+              </li>
+              <li>
+                <strong style={{ color: '#f24521' }}>Ultra-Fast Execution:</strong> Trades are executed in milliseconds using low-latency tech and deep liquidity.
+              </li>
+              <li>
+                <strong style={{ color: '#f24521' }}>Tight Spreads & Low Fees:</strong> Trade major, minor, and exotic pairs with some of the lowest spreads in the market.
+              </li>
+              <li>
+                <strong style={{ color: '#f24521' }}>No Hidden Charges:</strong> Transparent pricing with no hidden commissions or fees.
+              </li>
+              <li>
+                <strong style={{ color: '#f24521' }}>24/7 Dedicated Support:</strong> Get expert help anytime via live chat, email, or phone—in multiple languages.
+              </li>
+            </ul>
 
-export default WhyForex;
+            <p className="mt-4" style={{ fontWeight: 500, color: '#185234' }}>
+              With NestPip, you trade on a platform that’s engineered for success, speed, and simplicity.
+            </p>
+          </Col>
+
+          {/* Right Image */}
+       
+        </Row>
+      </Container>
+    </section>
+  );
+};
+
+export default WhyChooseNestPip;

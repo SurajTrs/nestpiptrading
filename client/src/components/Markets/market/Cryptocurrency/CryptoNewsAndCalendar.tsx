@@ -4,7 +4,7 @@ const CryptoNewsAndCalendar = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
       <div className="container">
-        <h2 className="fw-bold text-center mb-5" style={{ color: '#FF7A00' }}>
+        <h2 className="fw-bold text-center mb-5" style={{ color: '#f24521' }}>
           Major Crypto Moves and Market News
         </h2>
 
@@ -60,7 +60,7 @@ const CryptoNewsAndCalendar = () => {
             <a
               href="#"
               className="text-decoration-none fw-semibold"
-              style={{ color: '#FF7A00' }}
+              style={{ color: '#f24521' }}
             >
               View more crypto news →
             </a>
@@ -123,37 +123,7 @@ const CryptoNewsAndCalendar = () => {
         </div>
 
         {/* Bonus Tools Section */}
-        <div className="row mt-5">
-          <h4 className="fw-semibold text-center mb-4">Advanced Trading Tools</h4>
-
-          <div className="col-md-4">
-            <div className="bg-white p-4 rounded shadow-sm h-100">
-              <h6 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>Automate with Capitalise.ai</h6>
-              <p className="text-muted small mb-0">
-                Automate your trading strategies easily without coding. Build, backtest, and launch your trades instantly.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4 mt-4 mt-md-0">
-            <div className="bg-white p-4 rounded shadow-sm h-100">
-              <h6 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>Performance Analytics</h6>
-              <p className="text-muted small mb-0">
-                Track and analyze your decision-making with behavioral science insights to boost trading performance.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4 mt-4 mt-md-0">
-            <div className="bg-white p-4 rounded shadow-sm h-100">
-              <h6 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>Award-Winning Mobile Apps</h6>
-              <p className="text-muted small mb-0">
-                Trade on the go with fast execution, smart signals, and fully customizable interface.
-              </p>
-            </div>
-          </div>
-        </div>
-
+      
         {/* CTA */}
         <div className="text-center mt-5">
           <a

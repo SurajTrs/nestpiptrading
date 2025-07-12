@@ -20,9 +20,9 @@ const MarketCategories: React.FC = () => {
 
 
   const heroData = {
-    title: 'Trade Indices with Confidence',
+    title: 'Trade Smarter with Nestpip – Global Indices Made Easy',
     description:
-      'Get exposure to major global stock indices including the Dow Jones, FTSE 100, and more — all without investing in individual company stocks.',
+      'Welcome to Nestpip, the best app for index trading and your go-to platform for trading indices. You can easily trade global indices like the S&P 500, NASDAQ 100, DAX 40, FTSE 100, NIFTY 50, and Nikkei 225 here. You can trade in both long and short directions on our platform, depending on how the market is feeling, without having to set up anything complicated.',
     imgSrc: '/assets/forex-banner-notes.png',
     imgAlt: 'Indices trading banner',
   };

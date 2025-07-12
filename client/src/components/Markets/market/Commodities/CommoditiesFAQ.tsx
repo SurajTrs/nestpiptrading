@@ -53,9 +53,9 @@ const CommoditiesFAQ: React.FC = () => {
               >
                 {item.question}
                 {openIndex === index ? (
-                  <FaChevronUp color="#FF7A00" />
+                  <FaChevronUp color="#f24521" />
                 ) : (
-                  <FaChevronDown color="#FF7A00" />
+                  <FaChevronDown color="#f24521" />
                 )}
               </button>
               {openIndex === index && (

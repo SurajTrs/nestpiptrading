@@ -18,22 +18,25 @@ const MarketCategories: React.FC = () => {
   const pathname = usePathname();
   const currentMarket = pathname?.split('/').pop()?.replace(/-/g, ' ').toLowerCase();
 
-
-   const heroData = {
-    title: 'Trade Forex with Confidence',
-    description:
-      'Access the world’s largest financial market 24/5 and trade major, minor, and exotic currency pairs with tight spreads and powerful tools.',
-    imgSrc: '/assets/forex-banner.png', // Make sure this image exists
+  const heroData = {
+    title: 'Experience the Best Forex Trading Platform',
+    description: `Welcome to Nestpip - Your Smart Gateway for Successful Forex Trading. Whether you are only
+starting your journey in the money market or looking for a better solution, NestPip is the best forex
+trading platform, which is made keeping in mind every trader. Our mission is to strengthen high -
+performance tools, tight spread, real -time analysis and strengthen with a user -friendly interface
+that helps you trade with confidence and clarity.`,
+    subDescription: `With a reputation built on the trust, performance and innovation, Nestpip has earned its place
+among the world's best forex brokers. We invite you to find out our platform, exploit our resources
+and elevate your business experience.`,
+    imgSrc: '/assets/forex-banner.png',
     imgAlt: 'Forex trading banner',
   };
-
 
   return (
     <section className="market-categories-page-section">
       <section style={{ backgroundColor: '#f24521', color: '#fff', padding: '5rem 0' }}>
         <div className="container text-center">
-
-     
+          {/* Nav Scroll Buttons */}
           <div
             className="mb-4"
             style={{
@@ -83,14 +86,17 @@ const MarketCategories: React.FC = () => {
             })}
           </div>
 
-
+          {/* Hero Section */}
           <div className="row align-items-center text-start mt-5">
             <div className="col-md-6">
               <h2 style={{ fontWeight: 700, fontSize: '2.5rem', marginBottom: '1rem' }}>
                 {heroData.title}
               </h2>
-              <p style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto 2.5rem auto' }}>
+              <p style={{ fontSize: '1.1rem', maxWidth: '620px', margin: '0 auto 1rem auto' }}>
                 {heroData.description}
+              </p>
+              <p style={{ fontSize: '1.05rem', maxWidth: '620px', margin: '0 auto 2rem auto' }}>
+                {heroData.subDescription}
               </p>
 
               <div className="d-flex flex-wrap gap-3 mt-4 mb-4">

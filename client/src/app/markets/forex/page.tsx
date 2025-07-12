@@ -1,6 +1,8 @@
 
 'use client';
 
+import AccountOpeningBanner from '@/components/Markets/market/Forex/AccountOpeningBanner';
+import DepositWithdrawalSection from '@/components/Markets/market/Forex/DepositWithdrawalSection';
 import FaqSection from '@/components/Markets/market/Forex/FaqSection';
 import ForexBanner from '@/components/Markets/market/Forex/ForexBanner';
 import ForexExplained from '@/components/Markets/market/Forex/ForexExplained';
@@ -9,9 +11,11 @@ import ForexTradingInfo from '@/components/Markets/market/Forex/ForexTradingInfo
 import ForexTradingTools from '@/components/Markets/market/Forex/ForexTradingTools';
 import FxPricingTable from '@/components/Markets/market/Forex/FxPricingTable';
 import FxTradingApps from '@/components/Markets/market/Forex/FxTradingApps';
-import LearnForexSection from '@/components/Markets/market/Forex/LearnForexSection';
+import ReadyToStartBanner from '@/components/Markets/market/Forex/ReadyToStartBanner';
+import RecognitionSection from '@/components/Markets/market/Forex/RecognitionSection';
+import TradingPartner from '@/components/Markets/market/Forex/TradingPartner';
+import WhyForexMatters from '@/components/Markets/market/Forex/WhyForexMatters';
 import WhyForex from '@/components/WhyForex';
-import WhyForexSection from '@/components/WhyForexSection';
 
 import React from 'react';
 
@@ -23,20 +27,22 @@ const ForexBannerPage = () => (
    
     <ForexBanner/>
     <ForexFeatures/>
+    <WhyForexMatters/>
+     <FxTradingApps/>
     <ForexExplained/>
      <ForexTradingInfo/>
-    
-
+     <TradingPartner/>
     <WhyForex/>
-    
    
     <ForexTradingTools/>
+    <DepositWithdrawalSection/>
+    <RecognitionSection/>
+   
+     <AccountOpeningBanner/>
     <FxPricingTable/>
-    <FxTradingApps/>
-    <WhyForexSection/>
-    <LearnForexSection/>
-    
+      <ReadyToStartBanner/>
     <FaqSection/>
+   
   </main>
   
 );

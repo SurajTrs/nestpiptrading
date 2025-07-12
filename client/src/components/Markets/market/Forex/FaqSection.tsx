@@ -1,70 +1,53 @@
 'use client';
 
 import React from 'react';
+import Accordion from 'react-bootstrap/Accordion';
 
-const faqs = [
-  {
-    question: 'When is the forex market open for trading?',
-    answer:
-      'The forex market is open 24 hours a day, five days a week — from Sunday 5 PM to Friday 5 PM (ET), allowing traders worldwide to access opportunities at any time.',
-  },
-  {
-    question: 'Where is forex traded?',
-    answer:
-      'Forex is traded globally across major financial centers including London, New York, Tokyo, and Sydney, through a decentralized network of banks, brokers, and institutions.',
-  },
-  {
-    question: 'Why do people trade currencies?',
-    answer:
-      'People trade currencies to speculate on price movements, hedge against risks, or for international business purposes. Forex offers high liquidity and leverage potential.',
-  },
-];
-
-const FaqSection: React.FC = () => {
+const ForexFAQAccordion: React.FC = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
       <div className="container">
-        <h2 className="fw-bold mb-4" style={{ color: '#f24521' }}>
-          Frequently Asked Questions
+        <h2 className="text-center mb-4 fw-bold" style={{ color: '#f24521' }}>
+          Forex Market FAQ
         </h2>
 
-        {faqs.map((faq, idx) => (
-          <div key={idx} className="mb-3">
-            <h5 className="fw-semibold" style={{ color: '#333' }}>
-              {faq.question}
-            </h5>
-            <p className="text-muted">{faq.answer}</p>
-          </div>
-        ))}
+        <Accordion defaultActiveKey="0" flush>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <span className="fw-semibold" style={{ color: '#f24521' }}>
+                📅 When is the forex market open for trading?
+              </span>
+            </Accordion.Header>
+            <Accordion.Body style={{ backgroundColor: '#fff', color: '#333' }}>
+              The forex market is open 24 hours a day, five days a week — from <strong>Sunday 5 PM</strong> to <strong>Friday 5 PM</strong> (ET), allowing traders worldwide to access opportunities at any time.
+            </Accordion.Body>
+          </Accordion.Item>
 
-        {/* Call to Action */}
-        <div className="mt-4 d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
-          <a
-            href="/faq"
-            className="btn btn-outline-dark"
-            style={{
-              borderRadius: '10px',
-              fontWeight: 600,
-              padding: '0.6rem 1.8rem',
-            }}
-          >
-            Visit the Forex Trading FAQ
-          </a>
-          <p className="text-muted mb-0">
-            Or start a chat with our{' '}
-            <a
-              href="/support"
-              className="text-decoration-underline"
-              style={{ color: '#f24521' }}
-            >
-              support team
-            </a>
-            .
-          </p>
-        </div>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>
+              <span className="fw-semibold" style={{ color: '#f24521' }}>
+                🌍 Where is forex traded?
+              </span>
+            </Accordion.Header>
+            <Accordion.Body style={{ backgroundColor: '#fff', color: '#333' }}>
+              Forex is traded globally across major financial centers including <strong>London, New York, Tokyo, and Sydney</strong>, through a decentralized network of banks, brokers, and institutions.
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="2">
+            <Accordion.Header>
+              <span className="fw-semibold" style={{ color: '#f24521' }}>
+                💹 Why do people trade currencies?
+              </span>
+            </Accordion.Header>
+            <Accordion.Body style={{ backgroundColor: '#fff', color: '#333' }}>
+              People trade currencies to <strong>speculate</strong> on price movements, <strong>hedge against risks</strong>, or for <strong>international business purposes</strong>. Forex offers high liquidity and leverage potential.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
       </div>
     </section>
   );
 };
 
-export default FaqSection;
+export default ForexFAQAccordion;

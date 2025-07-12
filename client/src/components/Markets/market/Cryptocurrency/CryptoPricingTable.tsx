@@ -23,7 +23,7 @@ const CryptoPricingTable = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0', color: '#333' }}>
       <div className="container">
-        <h2 className="fw-bold mb-2 text-center" style={{ color: '#FF7A00', fontSize: '1.8rem' }}>
+        <h2 className="fw-bold mb-2 text-center" style={{ color: '#f24521', fontSize: '1.8rem' }}>
           Cryptocurrency Market Pricing
         </h2>
         <p className="text-muted text-center mb-4" style={{ fontSize: '1rem' }}>
@@ -33,11 +33,11 @@ const CryptoPricingTable = () => {
         <div className="table-responsive">
           <table className="table table-borderless text-center align-middle" style={{ minWidth: '350px' }}>
             <thead>
-              <tr style={{ borderBottom: '2px solid #FF7A00' }}>
-                <th style={{ color: '#FF7A00' }}>Name</th>
-                <th style={{ color: '#FF7A00' }}>Sell</th>
-                <th style={{ color: '#FF7A00' }}>Buy</th>
-                <th style={{ color: '#FF7A00' }}>Spread</th>
+              <tr style={{ borderBottom: '2px solid #f24521' }}>
+                <th style={{ color: '#f24521' }}>Name</th>
+                <th style={{ color: '#f24521' }}>Sell</th>
+                <th style={{ color: '#f24521' }}>Buy</th>
+                <th style={{ color: '#f24521' }}>Spread</th>
               </tr>
             </thead>
             <tbody>

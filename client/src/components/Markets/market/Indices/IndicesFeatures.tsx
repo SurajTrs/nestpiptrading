@@ -2,7 +2,7 @@ import React from 'react';
 
 const IndicesFeatures = () => {
   return (
-    <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
+    <section className="py-5" style={{ backgroundColor: '#f24521' }}>
       <div className="container">
         <div className="row text-center justify-content-center">
           {/* Feature 1 */}

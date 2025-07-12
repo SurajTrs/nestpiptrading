@@ -6,15 +6,47 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/accounts/standard/page": [
+    "/markets/indices/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/accounts/standard/page.js"
+      "static/chunks/app/markets/indices/page.js"
     ],
-    "/_not-found/page": [
+    "/markets/cryptocurrency/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/markets/cryptocurrency/page.js"
+    ],
+    "/markets/eur-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/eur-usd/page.css",
+      "static/chunks/app/markets/eur-usd/page.js"
+    ],
+    "/markets/gbp-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/gbp-usd/page.js"
+    ],
+    "/markets/usd-chf/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/usd-chf/page.js"
+    ],
+    "/markets/forex/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/forex/page.js"
+    ],
+    "/platforms-tools/mobile-app/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/mobile-app/page.js"
+    ],
+    "/markets/wall-street/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/wall-street/page.css",
+      "static/chunks/app/markets/wall-street/page.js"
     ]
   }
 }

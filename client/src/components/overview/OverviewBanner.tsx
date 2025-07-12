@@ -19,10 +19,10 @@ const MarketCategories: React.FC = () => {
   const currentMarket = pathname?.split('/').pop()?.replace(/-/g, ' ').toLowerCase();
 
   const heroData = {
-    title: 'Explore All Markets in One Place',
+    title: 'Trade Global Markets Online with Nestpip – Forex, Crypto, Stocks & More in One Platform',
     description:
-      'Welcome to the market overview page. Dive into Forex, Stocks, Indices, Commodities, and more. Stay informed and make better trading decisions.',
-    imgSrc: '/assets/overview-banner.png', // Update with your actual image path
+      'Your One-Stop Shop for Trading in All Global Financial Markets. Nestpip is a smart and safe online trading platform that lets you trade many different assets, such as Forex, Crypto, Stocks, Indices, and Commodities, all in one place. Nestpip is made for all kinds of traders, from beginners to experts. With one all-in-one trading solution, you can access more than 500 of the best trading platforms in real time and have a quick and easy trading experience.',
+    imgSrc: '/assets/overview-banner.png',
     imgAlt: 'Market overview banner',
   };
 

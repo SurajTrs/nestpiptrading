@@ -2,10 +2,17 @@
 'use client';
 
 
-import CryptoPricingTable from '@/components/Markets/market/Cryptocurrency/CryptoPricingTable';
+import CommoditiesOverviewSection from '@/components/Markets/overview/CommoditiesOverviewSection';
+import CryptoOverviewSection from '@/components/Markets/overview/CryptoOverviewSection';
+import IndicesOverviewSection from '@/components/Markets/overview/IndicesOverviewSection';
 import OverviewBanner from '@/components/Markets/overview/OverviewBanner';
+import OverviewFaqsSection from '@/components/Markets/overview/OverviewFaqsSection';
+import OverviewGetStarted from '@/components/Markets/overview/OverviewGetStarted';
+import OverViewSection from '@/components/Markets/overview/OverViewSection';
 import SpreadsTable from '@/components/Markets/overview/SpreadsTable';
+import StocksOverviewSection from '@/components/Markets/overview/StocksOverviewSection';
 import TradePlatforms from '@/components/Markets/overview/TradePlatforms';
+import WhyChooseNestpip from '@/components/Markets/overview/WhyChooseNestpip';
 import React from 'react';
 
 
@@ -14,9 +21,17 @@ import React from 'react';
 const IndicesPage = () => (
    <main>
   <OverviewBanner/>
-  <TradePlatforms/>
+  <OverViewSection/>
+  <IndicesOverviewSection/>
+  <CryptoOverviewSection/>
+  <CommoditiesOverviewSection/>
+  <StocksOverviewSection/>
+    <TradePlatforms/>
   <SpreadsTable/>
-  <CryptoPricingTable/>
+  <WhyChooseNestpip/>
+  <OverviewGetStarted/>
+  <OverviewFaqsSection/>
+ 
   </main>
   
 );

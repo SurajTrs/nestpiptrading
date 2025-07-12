@@ -2,13 +2,13 @@ import React from 'react';
 
 const CommoditiesFeatures = () => {
   return (
-    <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
+    <section className="py-5" style={{ backgroundColor: '#f24521' }}>
       <div className="container">
         <div className="row text-center justify-content-center">
           {/* Feature 1 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 h-100 rounded-4 shadow-sm" style={{ backgroundColor: '#fff' }}>
-              <h5 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>
+              <h5 className="fw-bold mb-2" style={{ color: '#f24521' }}>
                 Wide Range of Commodities
               </h5>
               <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
@@ -20,7 +20,7 @@ const CommoditiesFeatures = () => {
           {/* Feature 2 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 h-100 rounded-4 shadow-sm" style={{ backgroundColor: '#fff' }}>
-              <h5 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>
+              <h5 className="fw-bold mb-2" style={{ color: '#f24521' }}>
                 Competitive Spreads
               </h5>
               <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
@@ -32,7 +32,7 @@ const CommoditiesFeatures = () => {
           {/* Feature 3 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 h-100 rounded-4 shadow-sm" style={{ backgroundColor: '#fff' }}>
-              <h5 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>
+              <h5 className="fw-bold mb-2" style={{ color: '#f24521' }}>
                 Flexible Contract Sizes
               </h5>
               <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
