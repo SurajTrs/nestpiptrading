@@ -67,10 +67,14 @@ const EurUsdbanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade EUR/USD – The World’s Most Traded Currency Pair
+             Use Nestpip to trade EUR/USD and unlock the power of Forex
+
             </h1>
+            <h2 className="fw-bold mb-3" style={{ fontSize: '1.5rem' }}>
+              The best Forex trading platform for smart, safe, and quick currency trading
+            </h2>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Benefit from tight spreads, high liquidity, and global volatility with EUR/USD trading.
+Nestpip is your trusted Forex Trading Platform. For EUR/USD trading, we offer lightning-fast execution, tight spreads, and strong platform features. Nestpip makes trading the most popular currency pair in the world as easy as a few clicks, whether you are a beginner or an expert.
             </p>
             <ul
               className="text-start"

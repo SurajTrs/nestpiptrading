@@ -1,12 +1,17 @@
 'use client';
 
-import QualityExecutionFeatures from '@/components/Account/type/Standard/QualityExecutionFeatures';
+import AccountComparison from '@/components/Account/type/Standard/AccountComparison';
+import AccountOpeningBannernew from '@/components/Account/type/Standard/AccountOpeningBannernew';
+import CommissionFreeTradingSection from '@/components/Account/type/Standard/CommissionFreeTradingSection';
+import StandardAccountFAQ from '@/components/Account/type/Standard/StandardAccountFAQ';
 import StandardAccountFeatures from '@/components/Account/type/Standard/StandardAccountFeatures';
 import StandardAccountSection from '@/components/Account/type/Standard/StandardAccountSection';
 import StandardBanner from '@/components/Account/type/Standard/StandardBanner';
 import StandardMarketPricingTable from '@/components/Account/type/Standard/StandardMarketPricingTable';
+import StandardOverview from '@/components/Account/type/Standard/StandardOverview';
 import TradingPlatformsSection from '@/components/Account/type/Standard/TradingPlatformsSection';
 import TradingSteps from '@/components/Account/type/Standard/TradingStep';
+import UltraLowSpreadsSection from '@/components/Account/type/Standard/UltraLowSpreadsSection';
 import React from 'react';
 
 
@@ -18,12 +23,19 @@ const StandardPage = () => (
 <StandardBanner/>
 <TradingSteps/>
 <StandardAccountSection/>
+
+<StandardOverview/>
+
 <StandardAccountFeatures/>
-<StandardMarketPricingTable/>
-<QualityExecutionFeatures/>
+<CommissionFreeTradingSection/>
+<UltraLowSpreadsSection/>
 <TradingPlatformsSection/>
+<StandardMarketPricingTable/>
 
 
+<AccountComparison/>
+<AccountOpeningBannernew/>
+<StandardAccountFAQ/>
  </main>
 );
 

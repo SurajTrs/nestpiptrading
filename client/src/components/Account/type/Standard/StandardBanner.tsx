@@ -65,10 +65,11 @@ const StandardBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Start Trading with a Standard Account
+             Top Standard Forex Trading Account – Trade Smarter with NestPip
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Perfect for beginners and everyday traders. Enjoy zero commission, tight spreads, and a simple interface.
+             Simple. Transparent. Commission-Free Forex Trading
+NestPip’s standard forex trading account is designed to give you an edge in the global markets. Enjoy zero commissions, tight spreads, and seamless access to the best trading platforms. Whether you are a beginner or a seasoned trader, NestPip delivers powerful tools and competitive pricing — all from one account.
             </p>
             <ul
               className="text-start"
@@ -79,9 +80,9 @@ const StandardBanner: React.FC = () => {
                 margin: '0 auto',
               }}
             >
-              <li>Zero commission on all trades</li>
-              <li>Low spreads on major FX pairs</li>
-              <li>User-friendly platform for all skill levels</li>
+              <li>Spreads from 0.8 pips </li>
+              <li>$0 Commission</li>
+              <li>$100 Min Deposit</li>
             </ul>
 
             <div className="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start mt-4">

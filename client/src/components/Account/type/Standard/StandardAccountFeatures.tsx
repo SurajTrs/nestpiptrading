@@ -1,59 +1,81 @@
+'use client';
+
 import React from 'react';
-import { FaCoins, FaDesktop, FaArrowTrendUp } from 'react-icons/fa6';
 
-const StandardAccountFeatures: React.FC = () => {
+const accountFeatures = [
+  { feature: 'Minimum Deposit', description: '$100' },
+  { feature: 'Spreads', description: 'Starting from 0.8 pips' },
+  { feature: 'Commission', description: '$0' },
+  { feature: 'Leverage', description: 'Up to 1:500' },
+  { feature: 'Trading Instruments', description: '80+ FX pairs, commodities, indices' },
+  { feature: 'Platforms', description: 'MT4, MT5, WebTrader' },
+  { feature: 'Execution Type', description: 'Market Execution' },
+  { feature: 'Minimum Trade Size', description: '0.01 lots' },
+  { feature: 'Account Base Currencies', description: 'USD, EUR, INR' },
+  { feature: 'Margin Call / Stop Out', description: '80% / 50%' },
+];
+
+const AccountFeaturesSection: React.FC = () => {
   return (
-    <section className="py-5" style={{ backgroundColor: '#FFF7F0', color: '#014421' }}>
-      <div className="container">
-        {/* Title */}
+    <section
+      className="account-features-section position-relative"
+      style={{
+        backgroundColor: '#fff3eb', // light orange background
+        padding: '5rem 0',
+        overflow: 'hidden',
+        color: '#222', 
+      }}
+    >
+      <div className="container position-relative">
         <div className="text-center mb-5">
-          <h2 className="fw-bold" style={{ color: '#f24521' }}>
-            Why Trade with a Standard Account
+          <h2
+            className="fw-bold mb-3"
+            style={{ fontSize: '2rem', color: '#f24521' }} // orange heading
+          >
+            Key Features of the NestPip Standard Forex Trading Account
           </h2>
+          <p className="lead" style={{ maxWidth: '700px', margin: '0 auto' }}>
+            Every feature of our standard forex trading account is designed to give traders more
+            flexibility, lower costs, and greater access to global markets.
+          </p>
         </div>
 
-        {/* Feature Blocks */}
-        <div className="row text-center g-4">
-          {/* Feature 1 */}
-          <div className="col-md-4">
-            <FaCoins size={40} color="#014421" className="mb-3" />
-            <h5 className="fw-bold">Tight spreads as low as 0.8 pips for EUR/USD</h5>
-            <p>
-              Trade over 80 currency pairs with tight spreads and superior execution.
-            </p>
-          </div>
-
-          {/* Feature 2 */}
-          <div className="col-md-4">
-            <FaArrowTrendUp size={40} color="#014421" className="mb-3" />
-            <h5 className="fw-bold">Opportunity for price improvement on limit orders</h5>
-            <p>
-              When the market moves in your favor, our trading tech passes along savings by executing your trade at a better price.
-            </p>
-          </div>
-
-          {/* Feature 3 */}
-          <div className="col-md-4">
-            <FaDesktop size={40} color="#014421" className="mb-3" />
-            <h5 className="fw-bold">Powerful trading platforms</h5>
-            <p>
-              Integrated tools, Reuters news, 80+ indicators on web & mobile apps, plus TradingView integration.
-            </p>
-          </div>
-        </div>
-
-        {/* CTA Buttons */}
-        <div className="text-center mt-5">
-          <button className="btn btn-success fw-semibold me-3 px-4 py-2 rounded-pill">
-            OPEN A STANDARD ACCOUNT
-          </button>
-          <button className="btn btn-outline-success fw-semibold px-4 py-2 rounded-pill">
-            OPEN DEMO ACCOUNT
-          </button>
+        <div className="table-responsive">
+          <table
+            className="table"
+            style={{ fontSize: '1.05rem', color: '#000' }}
+          >
+            <tbody>
+              {accountFeatures.map((item, index) => (
+                <tr key={index}>
+                  <td
+                    className="fw-semibold"
+                    style={{
+                      padding: '1rem',
+                      width: '45%',
+                      backgroundColor: '#f24521',
+                      borderRadius: '8px 0 0 8px',
+                    }}
+                  >
+                    {item.feature}
+                  </td>
+                  <td
+                    style={{
+                      padding: '1rem',
+                      backgroundColor: '#fff',
+                      borderRadius: '0 8px 8px 0',
+                    }}
+                  >
+                    {item.description}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
   );
 };
 
-export default StandardAccountFeatures;
+export default AccountFeaturesSection;

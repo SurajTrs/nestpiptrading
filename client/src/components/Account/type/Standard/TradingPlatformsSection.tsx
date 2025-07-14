@@ -1,68 +1,60 @@
+'use client';
+
 import React from 'react';
-import { FaDesktop, FaMobileAlt, FaChartLine } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
 
-const platformFeatures = [
-  {
-    icon: <FaDesktop size={32} color="#007BFF" />,
-    title: 'Web Trading',
-    description:
-      'Simplicity, speed, and reliability deliver a superior trading experience accessible from all modern browsers and operating systems.',
-  },
-  {
-    icon: <FaMobileAlt size={32} color="#007BFF" />,
-    title: 'Mobile Apps',
-    description:
-      'You’re on the move and so are the markets. Manage your account and trade on the go with ease, using one-swipe trading and quality execution.',
-  },
-  {
-    icon: <FaChartLine size={32} color="#007BFF" />,
-    title: 'TradingView',
-    description:
-      'Connect to TradingView to access their suite of renowned charts, exclusive trader tools, and ideas.',
-  },
-];
-
-const TradingPlatformsSection: React.FC = () => {
+const PlatformChoice: React.FC = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0', color: '#014421' }}>
       <div className="container">
-        <div className="row align-items-center g-5">
-          {/* Left (Image) */}
-          <div className="col-md-6 text-center">
-            <img
-              src="/images/trading-platforms-devices.png"
-              alt="Trading Platforms"
-              className="img-fluid"
-              style={{ maxHeight: '380px' }}
-            />
-          </div>
-
-          {/* Right (Text Content) */}
+        <div className="row align-items-center g-4 flex-column-reverse flex-md-row">
+          {/* Left: Text Content */}
           <div className="col-md-6">
-            <h2 className="fw-bold mb-3" style={{ fontSize: '1.8rem', color:'#f24521' }}>
-              Trade the global markets, your way
+            <h2 className="fw-bold mb-3" style={{ fontSize: '1.8rem' }}>
+              <span style={{ color: '#f24521' }}>PLATFORM CHOICE</span><br />
+              Trade Anywhere, Anytime – <span className="text-dark">Your Way</span>
             </h2>
-            <p className="mb-4 fs-5">
-              Open a Standard account and manage your trading across all your devices.
+            <p className="mb-3">
+              NestPip’s standard forex trading account is compatible with the industry’s most trusted trading platforms.
             </p>
 
-            <div className="d-flex flex-column gap-4">
-              {platformFeatures.map(({ icon, title, description }, index) => (
-                <div key={index} className="d-flex align-items-start gap-3">
-                  <div>{icon}</div>
-                  <div>
-                    <h5 className="fw-semibold mb-1" style={{ color: '#007BFF' }}>{title}</h5>
-                    <p className="mb-0" style={{ color: '#014421' }}>{description}</p>
-                  </div>
+            <ul className="list-unstyled">
+              <li className="mb-3 d-flex">
+                <FaCheckCircle className="me-2 text-success mt-1" />
+                <div>
+                  <strong style={{ color: '#f24521'}}>MetaTrader 4 (MT4)</strong><br />
+                  Ideal for all types of traders. Offers technical indicators, Expert Advisors (EAs), and real-time analytics.
                 </div>
-              ))}
-            </div>
+              </li>
+              <li className="mb-3 d-flex">
+                <FaCheckCircle className="me-2 text-success mt-1" />
+                <div>
+                  <strong style={{ color: '#f24521' }}>MetaTrader 5 (MT5)</strong><br />
+                  Next-generation platform with expanded tools, timeframes, and asset classes.
+                </div>
+              </li>
+              <li className="mb-3 d-flex">
+                <FaCheckCircle className="me-2 text-success mt-1" />
+                <div>
+                  <strong style={{ color: '#f24521' }}>NestPip WebTrader</strong><br />
+                  Trade directly from your browser with no downloads. Streamlined for speed, simplicity, and power.
+                </div>
+              </li>
+            </ul>
 
-            <div className="mt-4">
-              <button className="btn btn-outline-primary fw-semibold rounded-pill px-4 py-2">
-                SEE ALL PLATFORMS
-              </button>
-            </div>
+            <p className="mt-3 mb-0">
+              All platforms support <strong>one-click trading</strong>, <strong>multi-chart layouts</strong>, <strong>price alerts</strong>, and <strong>advanced risk management</strong> — perfect for executing successful trading strategies.
+            </p>
+          </div>
+
+          {/* Right: Optional Image or Illustration */}
+          <div className="col-md-6 text-center">
+            <img
+              src="/images/platforms-devices.png"
+              alt="Trading Platforms"
+              className="img-fluid rounded-4 shadow-sm"
+              style={{ maxHeight: '400px', objectFit: 'contain' }}
+            />
           </div>
         </div>
       </div>
@@ -70,4 +62,4 @@ const TradingPlatformsSection: React.FC = () => {
   );
 };
 
-export default TradingPlatformsSection;
+export default PlatformChoice;

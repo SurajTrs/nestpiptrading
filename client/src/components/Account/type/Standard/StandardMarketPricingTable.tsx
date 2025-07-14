@@ -53,20 +53,20 @@ const StandardMarketPricingTable: React.FC = () => {
         <div className="table-responsive">
           <table className="table table-borderless text-center align-middle" style={{ minWidth: '350px' }}>
             <thead>
-              <tr style={{ borderBottom: '2px solid #FF7A00' }}>
-                <th style={{ color: '#FF7A00' }}>Name</th>
-                <th style={{ color: '#FF7A00' }}>Sell</th>
-                <th style={{ color: '#FF7A00' }}>Buy</th>
-                <th style={{ color: '#FF7A00' }}>Spread</th>
+              <tr style={{ borderBottom: '2px solid #f24521' }}>
+                <th style={{ color: '#f24521' }}>Name</th>
+                <th style={{ color: '#f24521' }}>Sell</th>
+                <th style={{ color: '#f24521' }}>Buy</th>
+                <th style={{ color: '#f24521' }}>Spread</th>
               </tr>
             </thead>
             <tbody>
               {pricingData.map((item, index) => (
-                <tr key={index} style={{ borderBottom: '1px solid #FFB76B' }}>
+                <tr key={index} style={{ borderBottom: '1px solid #f24521' }}>
                   <td className="fw-semibold">{item.name}</td>
                   <td>{item.sell.toFixed(5)}</td>
                   <td>{item.buy.toFixed(5)}</td>
-                  <td className="fw-bold" style={{ color: '#FF7A00' }}>
+                  <td className="fw-bold" style={{ color: '#f24521' }}>
                     {item.spread}
                   </td>
                 </tr>
@@ -82,6 +82,23 @@ const StandardMarketPricingTable: React.FC = () => {
           </button>
           <p className="text-muted mt-3 mb-0" style={{ fontSize: '0.9rem' }}>
             Indicative Pricing updated 11:32:44 AM
+          </p>
+        </div>
+
+        {/* Market Coverage Description */}
+        <div className="mt-5 p-4 rounded-4 shadow-sm" style={{ backgroundColor: '#fff3e6' }}>
+          <h4 className="fw-bold mb-3" style={{ color: '#f24521' }}>MARKET COVERAGE</h4>
+          <p className="mb-2">
+            Access to <strong>80+ Currency Pairs and More</strong>. The standard forex trading account gives you access to all major, minor, and exotic forex pairs, plus metals, oil, and global indices.
+          </p>
+          <ul className="mb-2 ps-4">
+            <li><strong>Forex:</strong> EUR/USD, USD/JPY, GBP/USD, and more</li>
+            <li><strong>Commodities:</strong> Gold, Silver, Crude Oil</li>
+            <li><strong>Indices:</strong> NASDAQ, S&amp;P 500, Dow Jones, FTSE</li>
+            <li><strong>Exotics:</strong> USD/TRY, EUR/ZAR, USD/INR</li>
+          </ul>
+          <p className="mb-0">
+            <strong>Diversify</strong> your trading strategy with a single, multi-asset platform.
           </p>
         </div>
       </div>

@@ -6,6 +6,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/markets/forex/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/forex/page.js"
+    ],
+    "/markets/overview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/overview/page.css",
+      "static/chunks/app/markets/overview/page.js"
+    ],
     "/markets/indices/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,37 +27,21 @@
       "static/chunks/main-app.js",
       "static/chunks/app/markets/cryptocurrency/page.js"
     ],
-    "/markets/eur-usd/page": [
+    "/markets/commodities/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/markets/eur-usd/page.css",
-      "static/chunks/app/markets/eur-usd/page.js"
+      "static/css/app/markets/commodities/page.css",
+      "static/chunks/app/markets/commodities/page.js"
     ],
-    "/markets/gbp-usd/page": [
+    "/markets/crude-oil/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/markets/gbp-usd/page.js"
+      "static/chunks/app/markets/crude-oil/page.js"
     ],
-    "/markets/usd-chf/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/markets/usd-chf/page.js"
-    ],
-    "/markets/forex/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/markets/forex/page.js"
-    ],
-    "/platforms-tools/mobile-app/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/platforms-tools/mobile-app/page.js"
-    ],
-    "/markets/wall-street/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/markets/wall-street/page.css",
-      "static/chunks/app/markets/wall-street/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

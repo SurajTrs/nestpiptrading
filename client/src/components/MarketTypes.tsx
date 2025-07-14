@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MarketCardRow: React.FC = () => {
+const MarketCardBanner: React.FC = () => {
   const cards = [
     {
       img: '/icons/stocks.svg',
@@ -23,45 +23,76 @@ const MarketCardRow: React.FC = () => {
   ];
 
   return (
-    <section style={{ backgroundColor: '#FFF7F0' }} className="py-5">
-      <div className="container">
-        <h3 className="text-center fw-bold mb-4" style={{ color: '#f24521' }}>
+    <section className="market-banner-section py-5 position-relative">
+      <div className="container position-relative" style={{ zIndex: 2 }}>
+        <h2 className="text-center fw-bold mb-5 text-orange display-5">
           More Markets, Better Terms
-        </h3>
+        </h2>
 
         <div className="row justify-content-center">
           {cards.map(({ img, alt, title, desc }, i) => (
             <div key={i} className="col-md-4 mb-4">
-              <div className="d-flex align-items-start">
+              <div className="d-flex align-items-start bg-white p-4 rounded shadow-sm h-100">
                 <img
                   src={img}
                   alt={alt}
                   height={48}
-                  className="me-4"
-                  style={{ filter: 'drop-shadow(1px 1px 1px rgba(0,0,0,0.1))' }}
+                  className="me-3"
+                  style={{ filter: 'drop-shadow(2px 2px 2px rgba(0,0,0,0.1))' }}
                 />
                 <div>
-                  <h5 className="fw-bold mb-1" style={{ color: '#f24521' }}>
-                    {title}
-                  </h5>
-                  <p className="text-muted mb-0">{desc}</p>
+                  <h5 className="fw-bold mb-2 text-orange">{title}</h5>
+                  <p className="text-muted m-0">{desc}</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-4">
-          <button className="btn btn-success mx-2 px-4 py-2 rounded-pill" style={{ fontSize: '1.1rem' }}>
+        <div className="text-center mt-5">
+          <button className="btn btn-orange px-4 py-2 rounded-pill mx-2 fw-semibold">
             Start Trading
           </button>
-          <button className="btn btn-outline-primary mx-2 px-4 py-2 rounded-pill" style={{ fontSize: '1.1rem' }}>
+          <button className="btn btn-outline-light border-orange text-orange px-4 py-2 rounded-pill mx-2 fw-semibold">
             Try a Demo Account
           </button>
         </div>
       </div>
+
+      {/* Optional background pattern or image */}
+      <div className="market-banner-bg position-absolute top-0 start-0 w-100 h-100" />
+      
+      <style jsx>{`
+        .market-banner-section {
+          background: linear-gradient(to right, #ffe8dc, #fff4eb);
+          position: relative;
+          overflow: hidden;
+        }
+        .text-orange {
+          color: #f24521;
+        }
+        .btn-orange {
+          background-color: #f24521;
+          color: white;
+          border: none;
+          transition: 0.3s;
+        }
+        .btn-orange:hover {
+          background-color: #d13818;
+        }
+        .border-orange {
+          border: 2px solid #f24521;
+        }
+        .market-banner-bg {
+          background-image: url('/images/market-pattern.png');
+          background-size: cover;
+          background-position: center;
+          opacity: 0.05;
+          z-index: 0;
+        }
+      `}</style>
     </section>
   );
 };
 
-export default MarketCardRow;
+export default MarketCardBanner;

@@ -34,6 +34,7 @@ const HomePage: React.FC = () => {
       <TopNavBar />
       <MainNavbar />
       <HeroSection />
+    
       <MarketTypes />
        <WhatIsTradingView />
   
@@ -44,9 +45,10 @@ const HomePage: React.FC = () => {
       <TradingViewFeaturesWithImage />
       <TradingViewExtraFeatures />
       <TradingViewMarketInfo />
+      <WhyForex />
       <TradingViewConnectBanner />
 <CryptoPricingTable/>
-       <WhyForex />
+       
       <HowToGetStarted />
       <BenefitsSection />
       <SpreadsTable />

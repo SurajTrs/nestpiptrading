@@ -428,7 +428,7 @@ const MainNavbar: React.FC = () => {
           </ul>
 
           <div className="d-flex align-items-center gap-3">
-            <Link href="/login" className="btn btn-outline-danger btn-sm fw-semibold px-3">
+            <Link href="/LoginPage" className="btn btn-outline-danger btn-sm fw-semibold px-3">
               LOG IN
             </Link>
 
