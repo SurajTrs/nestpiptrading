@@ -1,5 +1,15 @@
 {
   "pages": {
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -10,12 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/markets/forex/page.js"
-    ],
-    "/markets/overview/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/markets/overview/page.css",
-      "static/chunks/app/markets/overview/page.js"
     ],
     "/markets/indices/page": [
       "static/chunks/webpack.js",
@@ -38,10 +42,207 @@
       "static/chunks/main-app.js",
       "static/chunks/app/markets/crude-oil/page.js"
     ],
-    "/_not-found/page": [
+    "/markets/stocks/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/markets/stocks/page.js"
+    ],
+    "/markets/gold-and-silver/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/gold-and-silver/page.js"
+    ],
+    "/markets/eur-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/eur-usd/page.css",
+      "static/chunks/app/markets/eur-usd/page.js"
+    ],
+    "/markets/gbp-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/gbp-usd/page.js"
+    ],
+    "/markets/usd-jpy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/usd-jpy/page.js"
+    ],
+    "/markets/usd-chf/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/usd-chf/page.js"
+    ],
+    "/markets/gold-xau-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/gold-xau-usd/page.js"
+    ],
+    "/markets/us-sp-500/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/us-sp-500/page.js"
+    ],
+    "/markets/germany-40/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/germany-40/page.js"
+    ],
+    "/markets/wall-street/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/wall-street/page.css",
+      "static/chunks/app/markets/wall-street/page.js"
+    ],
+    "/markets/us-tech-100/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/us-tech-100/page.js"
+    ],
+    "/markets/tesla/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/tesla/page.js"
+    ],
+    "/markets/amazon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/amazon/page.js"
+    ],
+    "/markets/apple/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/apple/page.js"
+    ],
+    "/markets/nvidia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/nvidia/page.js"
+    ],
+    "/accounts/standard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accounts/standard/page.js"
+    ],
+    "/accounts/metatrader/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accounts/metatrader/page.js"
+    ],
+    "/accounts/rawspread/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accounts/rawspread/page.js"
+    ],
+    "/education/courses/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/courses/page.js"
+    ],
+    "/education/lessons/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/lessons/page.js"
+    ],
+    "/education/live-virtual-events/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/live-virtual-events/page.js"
+    ],
+    "/education/glossary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/glossary/page.js"
+    ],
+    "/education/quiz/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/quiz/page.js"
+    ],
+    "/platforms-tools/mobile-app/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/mobile-app/page.js"
+    ],
+    "/platforms-tools/web-trader/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/web-trader/page.js"
+    ],
+    "/platforms-tools/metatrader-5/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/metatrader-5/page.js"
+    ],
+    "/platforms-tools/platform-comparison/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/platform-comparison/page.js"
+    ],
+    "/platforms-tools/tradingview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/tradingview/page.js"
+    ],
+    "/platforms-tools/advanced-charts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/advanced-charts/page.js"
+    ],
+    "/platforms-tools/how-to-connect/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/how-to-connect/page.js"
+    ],
+    "/platforms-tools/currency-converter/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/currency-converter/page.js"
+    ],
+    "/platforms-tools/margin-pip-calculator/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/margin-pip-calculator/page.js"
+    ],
+    "/platforms-tools/pivot-points/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/pivot-points/page.js"
+    ],
+    "/platforms-tools/ai-tools/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/ai-tools/page.js"
+    ],
+    "/platforms-tools/capitaliseai/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/capitaliseai/page.js"
+    ],
+    "/platforms-tools/performance-analytics/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/performance-analytics/page.js"
+    ],
+    "/platforms-tools/active-trader/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/active-trader/page.js"
+    ],
+    "/platforms-tools/api-trading/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/api-trading/page.js"
+    ],
+    "/platforms-tools/metatrader-expert-advisors/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/metatrader-expert-advisors/page.js"
+    ],
+    "/platforms-tools/metatrader-vps-hosting/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/metatrader-vps-hosting/page.js"
     ]
   }
 }

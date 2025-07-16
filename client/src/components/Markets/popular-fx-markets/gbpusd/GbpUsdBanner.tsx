@@ -18,7 +18,6 @@ const GbpUsdbanner: React.FC = () => {
   return (
     <section style={{ backgroundColor: '#f24521', color: '#fff', padding: '5rem 0' }}>
       <div className="container text-center">
-        {/* Navigation Scrollbar */}
         <div
           className="d-flex justify-content-center gap-3 overflow-auto mb-4 pb-3"
           style={{ flexWrap: 'nowrap' }}
@@ -65,7 +64,9 @@ const GbpUsdbanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade GBP/USD – Explore the Cable Market
+             You can count on Nestpip to be the best place to trade Forex for GBP/USD.
+            </h1>
+            <h1 className="fw-bold mb-3" style={{ fontSize: '1.5rem' }}>Welcome to the Best Forex Trading Site for GBP/USD
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
               Take advantage of volatility in one of the world’s most liquid currency pairs – the British Pound and US Dollar.

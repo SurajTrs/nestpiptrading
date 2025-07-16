@@ -150,7 +150,7 @@ const MainNavbar: React.FC = () => {
                 <ul className="list-unstyled">
                   <li><strong>Popular Indices</strong></li>
                   <li><Link href="/markets/wall-street" className="dropdown-item">Wall Street</Link></li>
-                  <li><Link href="/markets/us-sp500" className="dropdown-item">US SP 500</Link></li>
+                  <li><Link href="/markets/us-sp-500" className="dropdown-item">US SP 500</Link></li>
                   <li><Link href="/markets/us-tech-100" className="dropdown-item">US Tech 100</Link></li>
                   <li><Link href="/markets/germany-40" className="dropdown-item">Germany 40</Link></li>
                 </ul>

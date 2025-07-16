@@ -8,20 +8,22 @@ import MarketTypes from '../components/MarketTypes';
 import WhyForex from '../components/WhyForex';
 import PushingForward from '../components/PushingForward';
 import ActiveTrader from '../components/ActiveTrader';
-import TradePlatforms from '../components/Markets/overview/TradePlatforms';
-import TradingViewHero from '../components/Markets/overview/TradingViewHero';
+
 import HowToGetStarted from '../components/HowToGetStarted';
 import WhatIsTradingView from '../components/WhatIsTradingView';
-import TradingViewFeaturesWithImage from '../components/Markets/overview/TradingViewFeatures';
-import TradingViewExtraFeatures from '../components/Markets/overview/TradingViewExtraFeatures';
-import TradingViewMarketInfo from '../components/Markets/overview/TradingViewMarketInfo';
-import TradingViewConnectBanner from '../components/Markets/overview/TradingViewConnectBanner';
+
 import BenefitsSection from '../components/BenefitsSection';
 import SpreadsTable from '../components/Markets/overview/SpreadsTable';
 import NewsCards from '../components/NewsCards';
 import TradeItBanner from '../components/TradeItBanner';
 import Footer from './Footer';
 import CryptoPricingTable from '@/components/Markets/market/Cryptocurrency/CryptoPricingTable';
+import TradingViewFeaturesWithImage from '@/components/overview/TradingViewFeatures';
+import TradingViewExtraFeatures from '@/components/overview/TradingViewExtraFeatures';
+import TradingViewConnectBanner from '@/components/overview/TradingViewConnectBanner';
+import TradingViewMarketInfo from '@/components/overview/TradingViewMarketInfo';
+import TradingViewHero from '@/components/overview/TradingViewHero';
+import TradePlatforms from '@/components/overview/TradePlatforms';
 
 const HomePage: React.FC = () => {
   return (

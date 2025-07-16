@@ -16,7 +16,7 @@ const GlossaryBanner: React.FC = () => {
   const currentPage = pathname?.split('/').pop()?.replace(/-/g, '').toLowerCase();
 
   return (
-    <section style={{ backgroundColor: '#1a1a2e', color: '#fff', padding: '5rem 0' }}>
+    <section style={{ backgroundColor: '#f24521', color: '#fff', padding: '5rem 0' }}>
       <div className="container text-center">
         {/* Nav Icons */}
         <div className="d-flex justify-content-center gap-3 overflow-auto mb-4 pb-3" style={{ flexWrap: 'nowrap' }}>

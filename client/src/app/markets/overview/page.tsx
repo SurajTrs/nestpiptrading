@@ -11,8 +11,8 @@ import OverviewGetStarted from '@/components/Markets/overview/OverviewGetStarted
 import OverViewSection from '@/components/Markets/overview/OverViewSection';
 import SpreadsTable from '@/components/Markets/overview/SpreadsTable';
 import StocksOverviewSection from '@/components/Markets/overview/StocksOverviewSection';
-import TradePlatforms from '@/components/Markets/overview/TradePlatforms';
 import WhyChooseNestpip from '@/components/Markets/overview/WhyChooseNestpip';
+import TradePlatforms from '@/components/overview/TradePlatforms';
 import React from 'react';
 
 
@@ -26,7 +26,7 @@ const IndicesPage = () => (
   <CryptoOverviewSection/>
   <CommoditiesOverviewSection/>
   <StocksOverviewSection/>
-    <TradePlatforms/>
+  <TradePlatforms/>
   <SpreadsTable/>
   <WhyChooseNestpip/>
   <OverviewGetStarted/>
