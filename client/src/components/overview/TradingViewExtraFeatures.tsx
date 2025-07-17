@@ -11,10 +11,10 @@ const TradingViewExtraFeatures: React.FC = () => {
           {/* Left Side Image */}
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <img
-              src="/icons/fx-tradingview-screener.svg" // or any relevant image representing both features
+              src="/assets/fx-tradingview-screener.png" // or any relevant image representing both features
               alt="TradingView Screener & Alerts"
               className="img-fluid"
-              style={{ maxWidth: '220px', borderRadius: '16px' }}
+              style={{ maxWidth: '450px', borderRadius: '16px' }}
             />
           </div>
 

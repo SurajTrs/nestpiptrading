@@ -9,10 +9,10 @@ const TradingViewHero: React.FC = () => {
         <div className="row align-items-center">
           <div className="col-md-5 mb-4 mb-md-0 text-center">
             <img
-              src="/icons/tradingview-logo.svg"
+              src="/assets/tradingview-logo.jpg"
               alt="TradingView Logo"
               className="img-fluid"
-              style={{ maxWidth: '200px' }}
+              style={{ maxWidth: '500px' }}
             />
           </div>
 

@@ -8,11 +8,11 @@ const ReadyToStartBanner: React.FC = () => {
     <section
       style={{
         backgroundColor: '#f24521',
-        backgroundImage: 'url("/images/banner-bg.png")', // Replace with your actual background image path
+        backgroundImage: 'url("/images/readytostart.png")', // Replace with your actual background image path
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',
-        padding: '4rem 0',
+        padding: '6rem 0',
       }}
     >
       <Container>

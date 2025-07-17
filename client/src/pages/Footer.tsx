@@ -4,8 +4,15 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer
-      className="py-5"
-      style={{ backgroundColor: '#FFF7F0', color: '#333', fontSize: '0.9rem' }}
+      className="py-5"style={{
+    backgroundColor: '#ffffff',
+    backgroundImage: 'url("/images/footerbg.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    color: '#000000',
+    fontSize: '1rem',
+  }}
     >
       <div className="container">
         <div className="row gy-4">

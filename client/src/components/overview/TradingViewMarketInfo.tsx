@@ -34,10 +34,10 @@ const TradingViewMarketInfo: React.FC = () => {
 
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <img
-              src="/icons/fx-market-info.svg" // replace with your actual icon/image path
+              src="/assets/fx-market-info.png" // replace with your actual icon/image path
               alt="FX Market Info"
               className="img-fluid"
-              style={{ maxWidth: '220px', borderRadius: '16px' }}
+              style={{ maxWidth: '450px', borderRadius: '16px' }}
             />
           </div>
         </div>

@@ -1,9 +1,3 @@
 {
-  "/platforms-tools/margin-pip-calculator/page": "app/platforms-tools/margin-pip-calculator/page.js",
-  "/markets/forex/page": "app/markets/forex/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/accounts/standard/page": "app/accounts/standard/page.js",
-  "/features/execution/page": "app/features/execution/page.js",
-  "/markets/overview/page": "app/markets/overview/page.js",
-  "/platforms-tools/compare-platforms/page": "app/platforms-tools/compare-platforms/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }

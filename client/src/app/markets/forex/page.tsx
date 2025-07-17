@@ -33,14 +33,12 @@ const ForexBannerPage = () => (
      <ForexTradingInfo/>
      <TradingPartner/>
     <WhyForex/>
-   
     <ForexTradingTools/>
     <DepositWithdrawalSection/>
     <RecognitionSection/>
-   
      <AccountOpeningBanner/>
     <FxPricingTable/>
-      <ReadyToStartBanner/>
+    <ReadyToStartBanner/>
     <FaqSection/>
    
   </main>

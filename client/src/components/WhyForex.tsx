@@ -10,7 +10,7 @@ const WhyChooseNestPip: React.FC = () => {
         <Row className="align-items-center">
              <Col md={6} className="text-center">
             <img
-              src="/images/why-nestpip.png" // replace with your actual image
+              src="/assets/why-nestpip.png" // replace with your actual image
               alt="Why Choose NestPip"
               className="img-fluid rounded shadow"
               style={{ maxWidth: '90%' }}
