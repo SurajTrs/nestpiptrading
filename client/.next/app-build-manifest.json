@@ -15,6 +15,129 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/markets/eur-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/eur-usd/page.css",
+      "static/chunks/app/markets/eur-usd/page.js"
+    ],
+    "/features/trade-prices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/features/trade-prices/page.js"
+    ],
+    "/features/execution/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/features/execution/page.js"
+    ],
+    "/features/margin-requirements/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/features/margin-requirements/page.js"
+    ],
+    "/features/rollover-rates/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/features/rollover-rates/page.js"
+    ],
+    "/features/trading-costs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/features/trading-costs/page.js"
+    ],
+    "/accounts/standard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accounts/standard/page.js"
+    ],
+    "/accounts/rawspread/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accounts/rawspread/page.js"
+    ],
+    "/platforms-tools/mobile-app/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/mobile-app/page.js"
+    ],
+    "/platforms-tools/capitaliseai/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/capitaliseai/page.js"
+    ],
+    "/platforms-tools/get-started/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/get-started/page.js"
+    ],
+    "/platforms-tools/download-centre/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/download-centre/page.js"
+    ],
+    "/platforms-tools/platform-tutorials/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/platform-tutorials/page.js"
+    ],
+    "/platforms-tools/compare-platforms/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/compare-platforms/page.js"
+    ],
+    "/platforms-tools/simulated-trading/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/simulated-trading/page.js"
+    ],
+    "/education/courses/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/education/courses/page.css",
+      "static/chunks/app/education/courses/page.js"
+    ],
+    "/education/lessons/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/lessons/page.js"
+    ],
+    "/education/live-virtual-events/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/live-virtual-events/page.js"
+    ],
+    "/education/glossary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/glossary/page.js"
+    ],
+    "/education/quiz/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/education/quiz/page.js"
+    ],
+    "/markets/forex/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/forex/page.js"
+    ],
+    "/markets/overview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/overview/page.css",
+      "static/chunks/app/markets/overview/page.js"
+    ],
+    "/platforms-tools/web-trader/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/web-trader/page.js"
+    ],
+    "/platforms-tools/margin-pip-calculator/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/margin-pip-calculator/page.js"
     ]
   }
 }

@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="row gy-4">
           {/* Left Column */}
           <div className="col-md-4">
-            <h5 style={{ color: '#FF7A00', fontWeight: '600', marginBottom: '1rem' }}>
+            <h5 style={{ color: '#f24521', fontWeight: '600', marginBottom: '1rem' }}>
               Markets & Accounts
             </h5>
             <ul className="list-unstyled mb-4" style={{ lineHeight: '1.7' }}>
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
               <li>Margin Requirements</li>
             </ul>
 
-            <h5 style={{ color: '#FF7A00', fontWeight: '600', marginBottom: '1rem' }}>
+            <h5 style={{ color: '#f24521', fontWeight: '600', marginBottom: '1rem' }}>
               I WOULD LIKE TO
             </h5>
             <ul className="list-unstyled" style={{ lineHeight: '1.7' }}>
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
 
           {/* Middle Column */}
           <div className="col-md-4">
-            <h5 style={{ color: '#FF7A00', fontWeight: '600', marginBottom: '1rem' }}>
+            <h5 style={{ color: '#f24521', fontWeight: '600', marginBottom: '1rem' }}>
               I WOULD LIKE TO LEARN ABOUT
             </h5>
             <ul className="list-unstyled mb-4" style={{ lineHeight: '1.7' }}>
@@ -50,13 +50,13 @@ const Footer: React.FC = () => {
             <p>
               <a
                 href="mailto:support@nestpip.com"
-                style={{ color: '#FF7A00', textDecoration: 'none', fontWeight: '600' }}
+                style={{ color: '#f24521', textDecoration: 'none', fontWeight: '600' }}
               >
                 Need help? Contact us
               </a>
             </p>
 
-            <h5 style={{ color: '#FF7A00', fontWeight: '600', marginTop: '2rem', marginBottom: '1rem' }}>
+            <h5 style={{ color: '#f24521', fontWeight: '600', marginTop: '2rem', marginBottom: '1rem' }}>
               CONNECT
             </h5>
             <div className="d-flex gap-3">
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                 href="#"
                 aria-label="Facebook"
                 style={{
-                  color: '#FF7A00',
+                  color: '#f24521',
                   fontSize: '1.5rem',
                   display: 'flex',
                   alignItems: 'center',
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                   width: '36px',
                   height: '36px',
                   borderRadius: '50%',
-                  border: '1.5px solid #FF7A00',
+                  border: '1.5px solid #f24521',
                   textDecoration: 'none',
                 }}
               >
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                 href="#"
                 aria-label="YouTube"
                 style={{
-                  color: '#FF7A00',
+                  color: '#f24521',
                   fontSize: '1.5rem',
                   display: 'flex',
                   alignItems: 'center',
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
                   width: '36px',
                   height: '36px',
                   borderRadius: '50%',
-                  border: '1.5px solid #FF7A00',
+                  border: '1.5px solid #f24521',
                   textDecoration: 'none',
                 }}
               >
@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
               regulated entities holds your account.
             </p>
             <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: '1.5' }}>
-              FOREX.com is a trading name of GAIN Global Markets Inc. which is authorized and regulated by the Cayman
+              NESTPIP.com is a trading name of GAIN Global Markets Inc. which is authorized and regulated by the Cayman
               Islands Monetary Authority under the Securities Investment Business Law of the Cayman Islands (License
               number 25033).
             </p>
@@ -130,7 +130,7 @@ const Footer: React.FC = () => {
         {/* Bottom Row for Legal */}
         <div className="row mt-5 pt-3 border-top" style={{ borderColor: '#FF7A00' }}>
           <div className="col text-center" style={{ fontSize: '0.8rem', color: '#999' }}>
-            © FOREX.COM 2025 &nbsp; | &nbsp; TERMS AND POLICIES &nbsp; | &nbsp; SITEMAP &nbsp; | &nbsp; STONEX
+            © NESTPIP.COM 2025 &nbsp; | &nbsp; TERMS AND POLICIES &nbsp; | &nbsp; SITEMAP &nbsp; | &nbsp; STONEX
           </div>
         </div>
       </div>

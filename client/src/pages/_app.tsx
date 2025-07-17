@@ -17,7 +17,6 @@ const App = ({ Component, pageProps }: AppProps) => {
 
 
     return () => {
-      // Cleanup the script when the component unmounts
       document.body.removeChild(bootstrapScript);
     };  
   }, []);

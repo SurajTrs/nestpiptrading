@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
+import MainNavbar from './MainNavbar';
+import Footer from './Footer';
 
 const marketNavItems = [
   { icon: '/icons/Courses-icon.svg', label: 'Courses' },
@@ -16,6 +18,8 @@ const CoursesBanner: React.FC = () => {
   const currentPage = pathname?.split('/').pop()?.replace(/-/g, '').toLowerCase();
 
   return (
+    <>
+    <MainNavbar/>
     <section style={{ backgroundColor: '#f24521', color: '#fff', padding: '5rem 0' }}>
       <div className="container text-center">
         {/* Nav Icons */}
@@ -84,7 +88,7 @@ const CoursesBanner: React.FC = () => {
             <div className="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start mt-4">
               <a
                 href="/education/courses"
-                className="btn btn-primary fw-bold px-4 py-2"
+                className="btn btn fw-bold px-4 py-2"
                 style={{ borderRadius: '12px', minWidth: '180px' }}
               >
                 Browse Courses
@@ -110,6 +114,8 @@ const CoursesBanner: React.FC = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 };
 

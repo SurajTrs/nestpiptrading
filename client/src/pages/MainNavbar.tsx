@@ -109,13 +109,7 @@ const MainNavbar: React.FC = () => {
           >
             Trade Price
           </button>
-          <button
-            className={`btn text-start ${activeTab === 'accounts' ? 'active-tab' : 'inactive-tab'}`}
-            onClick={() => setActiveTab('accounts')}
-            style={{ borderRadius: '8px' }}
-          >
-            Our Account Types
-          </button>
+       
         </div>
 
         {/* Dynamic Tab Content */}
@@ -177,16 +171,22 @@ const MainNavbar: React.FC = () => {
           )}
 
           {activeTab === 'prices' && (
-            <div>
-              <p>Trade Prices content goes here.</p>
-            </div>
+              <>
+    <div style={{ minWidth: '150px', marginRight: '0.5rem' }}>
+      <ul className="list-unstyled">
+        <li><strong>Pricing & Costs</strong></li>
+        <li><Link href="/features/trade-prices" className="dropdown-item">Pricing</Link></li>
+        <li><Link href="/features/margin-requirements" className="dropdown-item">Margin Requirements</Link></li>
+        <li><Link href="/features/rollover-rates" className="dropdown-item">Rollover Rates</Link></li>
+        <li><Link href="/features/margin-leverage" className="dropdown-item">Margin & Leverage</Link></li>
+        <li><Link href="/features/execution" className="dropdown-item">Trading Execution</Link></li>
+        <li><Link href="/features/trading-costs" className="dropdown-item">Costs & Charges</Link></li>
+      </ul>
+    </div>
+  </>
           )}
 
-          {activeTab === 'accounts' && (
-            <div>
-              <p>Our Account Types content goes here.</p>
-            </div>
-          )}
+         
         </div>
       </div>
     </div>
@@ -251,7 +251,13 @@ const MainNavbar: React.FC = () => {
                   <li><strong>Account Types</strong></li>
                   <li><Link href="/accounts/standard" className="dropdown-item">Standard Account</Link></li>
                   <li><Link href="/accounts/metatrader" className="dropdown-item">MetaTrader Account</Link></li>
-                  <li><Link href="/accounts/raw-spread" className="dropdown-item">RAW Spread Account</Link></li>
+                  <li><Link href="/accounts/rawspread" className="dropdown-item">RAW Spread Account</Link></li>
+                  <li>
+          <Link href="/accounts/metatrader4" className="dropdown-item">MT4 Account</Link>
+        </li>
+        <li>
+          <Link href="/accounts/metatrader5" className="dropdown-item">MT5 Account</Link>
+        </li>
                 </ul>
               </div>
 
@@ -333,22 +339,19 @@ const MainNavbar: React.FC = () => {
                 onClick={() => setActiveTab('markets')}
                 style={{ borderRadius: '8px' }}
               >
-                Trade Markets
-              </button>
+Our Trading Platforms              </button>
               <button
                 className={`btn mb-2 text-start ${activeTab === 'prices' ? 'active-tab' : 'inactive-tab'}`}
                 onClick={() => setActiveTab('prices')}
                 style={{ borderRadius: '8px' }}
               >
-                Trade Price
-              </button>
+Platform Comparison              </button>
               <button
                 className={`btn text-start ${activeTab === 'accounts' ? 'active-tab' : 'inactive-tab'}`}
                 onClick={() => setActiveTab('accounts')}
                 style={{ borderRadius: '8px' }}
               >
-                Our Account Types
-              </button>
+Our Trading Tools              </button>
             </div>
 
             {/* Right Content based on activeTab */}
@@ -402,15 +405,25 @@ const MainNavbar: React.FC = () => {
               )}
 
               {activeTab === 'prices' && (
-                <div style={{ minWidth: '300px' }}>
-                  <p>Trade Price content goes here. Customize this content as needed.</p>
-                </div>
+                <>
+                <div style={{ minWidth: '150px' }}>
+                    <ul className="list-unstyled">
+                      <li><strong>Compare Platforms</strong></li>
+                      <li><Link href="/platforms-tools/compare-platforms" className="dropdown-item">Compare Platforms</Link></li>
+                    </ul>
+                  </div>
+          </>
               )}
 
               {activeTab === 'accounts' && (
-                <div style={{ minWidth: '300px' }}>
-                  <p>Our Account Types content goes here. Customize this content as needed.</p>
-                </div>
+               <>
+                <div style={{ minWidth: '150px' }}>
+                    <ul className="list-unstyled">
+                      <li><strong>Simulated Trading</strong></li>
+                      <li><Link href="/platforms-tools/simulated-trading" className="dropdown-item">Simulated Trading</Link></li>
+                    </ul>
+                  </div>
+          </>
               )}
             </div>
           </div>
@@ -444,22 +457,22 @@ const MainNavbar: React.FC = () => {
 
       <style jsx>{`
         .active-tab {
-          background-color: #FF7A00;
+          background-color: #f24521;
           color: white;
-          border: 1px solid #FF7A00;
+          border: 1px solid #f24521;
         }
         .active-tab:hover {
-          background-color: #e06a00;
-          border-color: #e06a00;
+          background-color: #f24521;
+          border-color: #f24521;
           color: white;
         }
         .inactive-tab {
           background-color: transparent;
-          color: #FF7A00;
-          border: 1px solid #FF7A00;
+          color: #f24521;
+          border: 1px solid #f24521;
         }
         .inactive-tab:hover {
-          background-color: #FF7A00;
+          background-color: #f24521;
           color: white;
         }
       `}</style>

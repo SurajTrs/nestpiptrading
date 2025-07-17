@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles.css'; // your global styles
 import MainNavbar from './pages/MainNavbar';
 import Footer from './pages/Footer';
+import TopNavBar from './pages/TopNavBar';
 
 export const metadata: Metadata = {
   title: 'NestPip | Forex Trading',
@@ -15,6 +16,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body>
+        <TopNavBar/>
         <MainNavbar />
         <div style={{ paddingTop: '90px' }}>{children}</div>
         <Footer />
