@@ -9,8 +9,8 @@ const PreciousMetalsFeatures: React.FC = () => {
           {/* Feature 1 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 h-100 rounded-4 shadow-sm bg-white">
-              <FaSearchDollar size={40} color="#FF7A00" className="mb-3" />
-              <h5 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>
+              <FaSearchDollar size={40} color="#f24521" className="mb-3" />
+              <h5 className="fw-bold mb-2" style={{ color: '#f24521' }}>
                 Deep Liquidity & Tighter Pricing
               </h5>
               <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
@@ -22,8 +22,8 @@ const PreciousMetalsFeatures: React.FC = () => {
           {/* Feature 2 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 h-100 rounded-4 shadow-sm bg-white">
-              <FaChartLine size={40} color="#FF7A00" className="mb-3" />
-              <h5 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>
+              <FaChartLine size={40} color="#f24521" className="mb-3" />
+              <h5 className="fw-bold mb-2" style={{ color: '#f24521' }}>
                 Advanced TradingView Charts
               </h5>
               <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>
@@ -35,8 +35,8 @@ const PreciousMetalsFeatures: React.FC = () => {
           {/* Feature 3 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 h-100 rounded-4 shadow-sm bg-white">
-              <FaGem size={40} color="#FF7A00" className="mb-3" />
-              <h5 className="fw-bold mb-2" style={{ color: '#FF7A00' }}>
+              <FaGem size={40} color="#f24521" className="mb-3" />
+              <h5 className="fw-bold mb-2" style={{ color: '#f24521' }}>
                 Access Multiple Metals
               </h5>
               <p className="text-muted mb-0" style={{ fontSize: '0.95rem' }}>

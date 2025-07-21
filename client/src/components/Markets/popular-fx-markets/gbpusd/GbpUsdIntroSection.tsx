@@ -9,7 +9,7 @@ const GbpUsdIntroSection: React.FC = () => {
           {/* LEFT – TEXT */}
           <div className="col-lg-6">
             <h2 className="fw-bold mb-3" style={{ color: '#f24521', fontSize: '1.8rem' }}>
-              What is the GBP/USD?
+What is the GBP/USD?
             </h2>
             <p style={{ fontSize: '1rem', color: '#333' }}>
               GBP/USD is the amount of US dollars (USD) that the British pound sterling (GBP) is worth. 

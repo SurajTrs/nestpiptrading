@@ -74,7 +74,7 @@ const GoldSilverNewsAndCalendar: React.FC = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
       <div className="container">
-        <h2 className="fw-bold text-center mb-5" style={{ color: '#FF7A00' }}>
+        <h2 className="fw-bold text-center mb-5" style={{ color: '#f24521' }}>
           Get the Latest Gold & Silver Market Updates
         </h2>
 
@@ -105,7 +105,7 @@ const GoldSilverNewsAndCalendar: React.FC = () => {
             <a
               href="#"
               className="text-decoration-none fw-semibold"
-              style={{ color: '#FF7A00' }}
+              style={{ color: '#f24521' }}
             >
               View more precious metals news →
             </a>

@@ -69,10 +69,10 @@ const MetaTrader5Banner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              MetaTrader 5 – Trade Smarter with Next-Gen Tools
+NestPip's MT5 Account Lets You Trade Smarter
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Discover the advanced capabilities of MT5 including multi-asset trading, faster execution, and built-in analytics.
+We are your trusted MetaTrader Forex broker for all-in-one market access.
             </p>
             <ul
               className="text-start"

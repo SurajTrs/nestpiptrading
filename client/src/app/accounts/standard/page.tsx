@@ -9,9 +9,11 @@ import StandardAccountSection from '@/components/Account/type/Standard/StandardA
 import StandardBanner from '@/components/Account/type/Standard/StandardBanner';
 import StandardMarketPricingTable from '@/components/Account/type/Standard/StandardMarketPricingTable';
 import StandardOverview from '@/components/Account/type/Standard/StandardOverview';
+import StandardTradingAccount from '@/components/Account/type/Standard/StandardTradingAccount';
 import TradingPlatformsSection from '@/components/Account/type/Standard/TradingPlatformsSection';
 import TradingSteps from '@/components/Account/type/Standard/TradingStep';
 import UltraLowSpreadsSection from '@/components/Account/type/Standard/UltraLowSpreadsSection';
+import WhyChooseStandardAccount from '@/components/Account/type/Standard/WhyChooseStandardAccount';
 import React from 'react';
 
 
@@ -21,6 +23,8 @@ const StandardPage = () => (
   <main>
 
 <StandardBanner/>
+<StandardTradingAccount/>
+<WhyChooseStandardAccount/>
 <TradingSteps/>
 <StandardAccountSection/>
 

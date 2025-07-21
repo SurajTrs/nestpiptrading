@@ -163,8 +163,8 @@ const MainNavbar: React.FC = () => {
               <div style={{ minWidth: '150px' }}>
                 <ul className="list-unstyled">
                   <li><strong>Popular Commodities</strong></li>
-                  <li><Link href="/markets/us-crude-oil" className="dropdown-item">US Crude Oil</Link></li>
-                  <li><Link href="/markets/uk-crude-oil" className="dropdown-item">UK Crude Oil</Link></li>
+                  <li><Link href="/markets/crude-oil" className="dropdown-item">US Crude Oil</Link></li>
+                  <li><Link href="/markets/crude-oil" className="dropdown-item">UK Crude Oil</Link></li>
                 </ul>
               </div>
             </>

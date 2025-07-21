@@ -15,6 +15,66 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/platforms-tools/tradingview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/platforms-tools/tradingview/page.css",
+      "static/chunks/app/platforms-tools/tradingview/page.js"
+    ],
+    "/platforms-tools/platform-comparison/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/platform-comparison/page.js"
+    ],
+    "/platforms-tools/metatrader-5/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/metatrader-5/page.js"
+    ],
+    "/accounts/compare/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accounts/compare/page.js"
+    ],
+    "/platforms-tools/advanced-charts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/platforms-tools/advanced-charts/page.js"
+    ],
+    "/markets/eur-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/eur-usd/page.css",
+      "static/chunks/app/markets/eur-usd/page.js"
+    ],
+    "/markets/gold-xau-usd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/gold-xau-usd/page.css",
+      "static/chunks/app/markets/gold-xau-usd/page.js"
+    ],
+    "/markets/usd-chf/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/usd-chf/page.js"
+    ],
+    "/markets/us-sp-500/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/us-sp-500/page.css",
+      "static/chunks/app/markets/us-sp-500/page.js"
+    ],
+    "/markets/us-tech-100/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/markets/us-tech-100/page.css",
+      "static/chunks/app/markets/us-tech-100/page.js"
+    ],
+    "/markets/germany-40/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/markets/germany-40/page.js"
     ]
   }
 }

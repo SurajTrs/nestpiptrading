@@ -1,3 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js"
+  "/markets/usd-chf/page": "app/markets/usd-chf/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/platforms-tools/platform-comparison/page": "app/platforms-tools/platform-comparison/page.js",
+  "/markets/us-tech-100/page": "app/markets/us-tech-100/page.js",
+  "/markets/us-sp-500/page": "app/markets/us-sp-500/page.js",
+  "/markets/germany-40/page": "app/markets/germany-40/page.js"
 }

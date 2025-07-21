@@ -15,7 +15,7 @@ const ForexExplained = () => {
                 className="me-3 p-2 rounded-circle"
                 style={{
                   backgroundColor: 'white',
-                  color: '#00365A',
+                  color: '#f24521',
                   width: '40px',
                   height: '40px',
                   display: 'flex',

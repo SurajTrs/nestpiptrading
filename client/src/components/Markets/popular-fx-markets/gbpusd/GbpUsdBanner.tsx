@@ -66,10 +66,10 @@ const GbpUsdbanner: React.FC = () => {
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
              You can count on Nestpip to be the best place to trade Forex for GBP/USD.
             </h1>
-            <h1 className="fw-bold mb-3" style={{ fontSize: '1.5rem' }}>Welcome to the Best Forex Trading Site for GBP/USD
+            <h1 className="fw-bold mb-3" style={{ fontSize: '1.5rem' }}>Welcome to the Best Forex Trading Site for GBP/USD.
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Take advantage of volatility in one of the world’s most liquid currency pairs – the British Pound and US Dollar.
+              Nestpip is the place to go if you want to trade forex online. Get ready to dive into the exciting world of trading GBP/USD. You'll be ready to go with lightning-fast execution, no pip spreads, and cutting-edge tools that let you take charge of the market. One of the most popular and traded currency pairs in the world is the GBP/USD. It has the best forex trading platform for trading opportunities, volatility, and liquidity.
             </p>
             <ul
               className="text-start"

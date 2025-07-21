@@ -68,10 +68,10 @@ const WallStreetBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade Wall Street Index (US30) With Confidence
+Nestpip is the Best Wall Street Index Platform for Trading
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Tap into the momentum of Americas top 30 companies with tight spreads and real-time insights.
+The best Wall Street index platform will help you trade better. You can trade on your phone safely and quickly, and you can also get AI insights and real-time analytics. You can trade the Wall Street index with confidence at any time and from any place, whether you are a beginner or an expert.
             </p>
             <ul
               className="text-start"

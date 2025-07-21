@@ -8,7 +8,7 @@ const marketNavItems = [
   { icon: '/icons/gbp-usd-icon.svg', label: 'GBP-USD' },
   { icon: '/icons/usd-jpy-icon.svg', label: 'USD-JPY' },
   { icon: '/icons/usd-chf-icon.svg', label: 'USD-CHF' },
-  { icon: '/icons/gold-icon.svg', label: 'Gold (XAU-USD)' },
+  { icon: '/icons/gold-icon.svg', label: 'Gold XAU-USD' },
 ];
 
 const GoldXauUsdBanner: React.FC = () => {
@@ -16,7 +16,7 @@ const GoldXauUsdBanner: React.FC = () => {
   const currentMarket = pathname?.split('/').pop()?.replace(/-/g, '').toLowerCase();
 
   return (
-    <section style={{ backgroundColor: '#f24521', color: '#000', padding: '5rem 0' }}>
+    <section style={{ backgroundColor: '#f24521', color: '#fff', padding: '5rem 0' }}>
       <div className="container text-center">
         {/* Market Navigation */}
         <div
@@ -42,7 +42,7 @@ const GoldXauUsdBanner: React.FC = () => {
                   boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
                   backgroundColor: isActive
                     ? 'rgba(0,0,0,0.2)'
-                    : 'rgba(0,0,0,0.05)',
+                    : 'rgba(73, 216, 41, 0.05)',
                   color: isActive ? '#000' : '#333',
                 }}
                 onMouseEnter={(e) =>
@@ -50,7 +50,7 @@ const GoldXauUsdBanner: React.FC = () => {
                 }
                 onMouseLeave={(e) =>
                   (e.currentTarget.style.backgroundColor = isActive
-                    ? 'rgba(0,0,0,0.2)'
+                    ? 'rgba(0, 0, 0, 0.2)'
                     : 'rgba(0,0,0,0.05)')
                 }
               >
@@ -65,11 +65,11 @@ const GoldXauUsdBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade Gold (XAU/USD) – The Ultimate Safe Haven
-            </h1>
+Trade Gold (XAU/USD) on the Best XAU/USD Trading Platform: Nestpip 
+</h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Tap into gold’s historic reliability during economic uncertainty. XAU/USD is a traders favorite during volatility.
-            </p>
+Welcome to Nestpip, the best place for modern traders to trade gold. You are in the right place if you want to trade gold (XAU/USD) with tight spreads, quick execution, and full transparency. Nestpip is for both new and experienced traders who want a safe, quick, and profitable way to trade XAU/USD. 
+</p>
             <ul
               className="text-start"
               style={{
@@ -77,6 +77,7 @@ const GoldXauUsdBanner: React.FC = () => {
                 lineHeight: 1.6,
                 maxWidth: '420px',
                 margin: '0 auto',
+                
               }}
             >
               <li>Strong inflation hedge asset</li>

@@ -65,10 +65,10 @@ const UsdJpyBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade USD/JPY – Asia’s Most Active Currency Pair
+Start trading USD/JPY On the Best Forex Trading Platform – Nestpip
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Take advantage of one of the most liquid forex pairs influenced by global interest rates and trade balance.
+You're in the right place if you want to trade USD/JPY (the U.S. Dollar against the Japanese Yen). It's one of the most popular currency pairs in the world. With Nestpip, the Best Forex Trading Platform, you can trade with confidence and ease.
             </p>
             <ul
               className="text-start"

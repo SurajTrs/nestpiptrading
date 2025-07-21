@@ -66,11 +66,10 @@ const RawSpreadBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Trade with Raw Spreads from 0.0 Pips
+Trade Smarter with Nestpip Raw Spread Account
             </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              Unlock institutional-grade pricing with Raw Spread accounts – ideal for scalpers and high-volume traders.
-            </p>
+We at Nestpip know that serious traders need serious answers. We made the Raw Spread Account for people who want ultra-tight spreads, real-time execution, and full pricing transparency.            </p>
             <ul
               className="text-start"
               style={{

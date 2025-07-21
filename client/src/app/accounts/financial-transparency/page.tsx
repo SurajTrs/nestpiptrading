@@ -1,6 +1,6 @@
 'use client';
 
-import TransparencyBanner from '@/components/Account/CompareTransparency/FinancialTransparency/TransparencyBanner';
+import TransparencyBanner from '@/components/Account/Features/TradePrices/FinancialTransparency/TransparencyBanner';
 import React from 'react';
 
 

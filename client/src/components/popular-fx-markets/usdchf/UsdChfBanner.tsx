@@ -8,7 +8,7 @@ const marketNavItems = [
   { icon: '/icons/gbp-usd-icon.svg', label: 'GBP/USD' },
   { icon: '/icons/usd-jpy-icon.svg', label: 'USD/JPY' },
   { icon: '/icons/usd-chf-icon.svg', label: 'USD/CHF' },
-  { icon: '/icons/gold-icon.svg', label: 'Gold (XAU/USD)' },
+  { icon: '/icons/gold-icon.svg', label: 'Gold XAU/USD' },
 ];
 
 const UsdChfBanner: React.FC = () => {

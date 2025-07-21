@@ -67,11 +67,9 @@ const MarginRequirementsBanner: React.FC = () => {
         <div className="row align-items-center text-md-start text-center mt-5">
           <div className="col-md-6">
             <h1 className="fw-bold mb-3" style={{ fontSize: '2.5rem' }}>
-              Understand Our Margin Requirements Clearly
-            </h1>
+Nestpip: Forex Margin Requirements and Leverage Information            </h1>
             <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '620px', margin: '0 auto' }}>
-              We provide transparent and competitive margin requirements so you can trade with confidence and control.
-            </p>
+Get full information about Forex margin requirements, real-time risk controls, and flexible leverage on all major instruments. Nestpip has a powerful trading environment with clear margin rules and customisable leverage settings that make it easy to manage your risk.            </p>
             <ul
               className="text-start"
               style={{

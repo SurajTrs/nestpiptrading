@@ -4,7 +4,7 @@ import { FaBalanceScale, FaExchangeAlt, FaChartLine } from 'react-icons/fa';
 
 const GoldSilverExplained = () => {
   return (
-    <section style={{ backgroundColor: '#FF7A00', color: 'white', padding: '4rem 0' }}>
+    <section style={{ backgroundColor: '#f24521', color: 'white', padding: '4rem 0' }}>
       <Container>
         <Row className="align-items-center">
           

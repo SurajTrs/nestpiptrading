@@ -20,7 +20,8 @@ const XauUsdChartWithSidebar: React.FC = () => {
   const [flashBuy, setFlashBuy] = useState(false);
   const [flashSell, setFlashSell] = useState(false);
 
-  const spread = 0.15; // Approx spread for XAU/USD
+  // Typical spread for Gold is about 0.3 USD (you can adjust if you want)
+  const spread = 0.3;
   const buyPrice = price !== null ? (price + spread).toFixed(2) : "--";
   const sellPrice = price !== null ? (price - spread).toFixed(2) : "--";
   const change =
@@ -78,7 +79,7 @@ const XauUsdChartWithSidebar: React.FC = () => {
     <div className="w-full bg-[#fff7ee] py-5">
       <div className="mx-auto max-w-screen-xl bg-white rounded-2xl shadow-lg border border-orange-200 overflow-hidden">
         <div className="text-center py-4 bg-orange-100 text-orange-700 font-bold text-2xl rounded-top">
-          XAU/USD Live Chart
+          XAU/USD (Gold) Live Chart
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4">
@@ -86,7 +87,7 @@ const XauUsdChartWithSidebar: React.FC = () => {
           <div className="col-span-3 p-4">
             <div style={{ height: "600px", width: "100%" }}>
               <AdvancedRealTimeChart
-                symbol="OANDA:XAUUSD"
+                symbol="FX:XAUUSD"
                 theme="light"
                 locale="en"
                 allow_symbol_change={false}
@@ -150,7 +151,7 @@ const XauUsdChartWithSidebar: React.FC = () => {
                   change < 0 ? "text-danger" : "text-success"
                 }`}
               >
-                CHANGE: {change.toFixed(2)}%
+                CHANGE: {change.toFixed(4)}%
               </p>
             )}
 

@@ -29,7 +29,7 @@ const MetalsFAQ: React.FC = () => {
   return (
     <section className="py-5" style={{ backgroundColor: '#FFF7F0' }}>
       <div className="container">
-        <h2 className="fw-bold mb-4 text-center" style={{ color: '#FF7A00' }}>
+        <h2 className="fw-bold mb-4 text-center" style={{ color: '#f24521' }}>
           Metals Trading FAQ
         </h2>
         <div className="accordion">
@@ -37,7 +37,7 @@ const MetalsFAQ: React.FC = () => {
             <div
               key={index}
               className="mb-3 border rounded"
-              style={{ backgroundColor: '#fff', borderColor: '#FFB76B' }}
+              style={{ backgroundColor: '#fff', borderColor: '#f24521' }}
             >
               <button
                 onClick={() => toggle(index)}
@@ -53,10 +53,10 @@ const MetalsFAQ: React.FC = () => {
               >
                 {item.question}
                 {openIndex === index ? (
-                  <FaChevronUp color="#FF7A00" />
+                  <FaChevronUp color="#f24521" />
                 ) : (
-                  <FaChevronDown color="#FF7A00" />
-                )}
+                  <FaChevronDown color="#f24521" />
+                )}f24521
               </button>
               {openIndex === index && (
                 <div className="px-4 pb-3 text-muted" style={{ fontSize: '1rem' }}>
