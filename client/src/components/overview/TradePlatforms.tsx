@@ -64,7 +64,7 @@ const TradePlatforms: React.FC = () => {
               src="/assets/FXUS-Laptop-and-Phones-Platform.png"
               alt="Trading Platforms"
               className="img-fluid"
-              style={{ maxWidth: '460px', borderRadius: '20px' }}
+              style={{ maxWidth: 'auto', borderRadius: '20px' }}
             />
           </div>
 

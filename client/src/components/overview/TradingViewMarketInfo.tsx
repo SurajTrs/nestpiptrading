@@ -37,7 +37,7 @@ const TradingViewMarketInfo: React.FC = () => {
               src="/assets/fx-market-info.png" // replace with your actual icon/image path
               alt="FX Market Info"
               className="img-fluid"
-              style={{ maxWidth: '450px', borderRadius: '16px' }}
+              style={{ maxWidth: 'auto', borderRadius: '16px' }}
             />
           </div>
         </div>

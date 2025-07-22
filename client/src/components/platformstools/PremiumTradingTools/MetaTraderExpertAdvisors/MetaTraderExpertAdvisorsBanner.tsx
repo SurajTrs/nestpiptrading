@@ -15,6 +15,7 @@ const MetaTraderExpertAdvisorsBanner: React.FC = () => {
   const currentMarket = pathname?.split('/').pop()?.replace(/-/g, '').toLowerCase();
 
   return (
+    <>
     <section style={{ backgroundColor: '#f24521', color: '#fff', padding: '5rem 0' }}>
       <div className="container text-center">
         {/* Nav Icons */}
@@ -114,6 +115,101 @@ const MetaTraderExpertAdvisorsBanner: React.FC = () => {
         </div>
       </div>
     </section>
+    <section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container text-center">
+    <h1 style={{ color: '#f24521' }}>What is an Expert Advisor (EA)?</h1>
+    <p className="fs-5 mt-3" style={{ color: '#fff3e9' }}>
+      An Expert Advisor (EA) is a program that runs on MetaTrader, allowing traders to automate strategies or enhance platform functionality.
+    </p>
+  </div>
+</section>
+<section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-md-6">
+        <h2 style={{ color: '#f24521' }}>Automated Trading & Beyond</h2>
+        <p>
+          While commonly used for automation, EAs can also display additional chart info, run strategies, or enhance trade signals. You can run multiple EAs simultaneously.
+        </p>
+        <p className="text-warning">⚠️ EAs run locally and would not execute if MetaTrader is closed or your PC is off.</p>
+      </div>
+      <div className="col-md-6">
+        <img src="/images/ea-platform.png" alt="Expert Advisor Interface" className="img-fluid rounded" />
+      </div>
+    </div>
+  </div>
+</section>
+<section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container text-center">
+    <h2 style={{ color: '#f24521' }}>What Can an Expert Advisor Do?</h2>
+    <p className="fs-5" style={{ color: '#fff3e9' }}>
+      EAs can generate signals, automate trades, display data, or create advanced widgets on your MetaTrader platform. Remove emotion from trading while saving time.
+    </p>
+  </div>
+</section>
+<section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container">
+    <h2 className="text-center mb-5" style={{ color: '#f24521' }}>Key Benefits of MetaTrader EAs</h2>
+    <div className="row text-center">
+      {[
+        'Automate trades/orders',
+        'Display market data graphically',
+        'Streamline complex order execution',
+        'Provide trading signals',
+        'Offer advanced indicators',
+        'Change the platform look'
+      ].map((benefit, i) => (
+        <div className="col-md-4 mb-4" key={i}>
+          <div className="p-3 border rounded text-white" style={{ borderColor: '#f24521' }}>
+            <span style={{ color: '#f24521' }}>✔</span> {benefit}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container">
+    <h2 className="text-center" style={{ color: '#f24521' }}>Explore Popular Expert Advisors</h2>
+    <div className="row mt-4">
+      {[
+        { name: "Alarm Manager", desc: "Set alerts for market or account events.", video: "#", image: "/ea/alarm.png" },
+        { name: "Correlation Matrix", desc: "Visualize correlation between markets.", video: "#", image: "/ea/matrix.png" },
+        { name: "Mini Terminal", desc: "Streamlined deal ticket and market control.", video: "#", image: "/ea/mini.png" }
+      ].map((ea, i) => (
+        <div className="col-md-4 mb-4" key={i}>
+          <div className="card bg-dark text-white h-100">
+            <img src={ea.image} className="card-img-top" alt={ea.name} />
+            <div className="card-body">
+              <h5 className="card-title" style={{ color: '#f24521' }}>{ea.name}</h5>
+              <p className="card-text">{ea.desc}</p>
+              <a href={ea.video} className="btn btn-outline-light btn-sm">Watch Video</a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container text-center">
+    <h2 style={{ color: '#f24521' }}>Download EAs + Indicators</h2>
+    <p className="fs-5" style={{ color: '#fff3e9' }}>
+      Get 9 powerful Expert Advisors and 15 advanced indicators to elevate your MetaTrader experience.
+    </p>
+    <a href="/downloads/ea-pack.zip" className="btn btn-lg btn-danger mt-3">Download EA Pack</a>
+  </div>
+</section>
+<section style={{ backgroundColor: '#000', color: '#fff', padding: '4rem 0' }}>
+  <div className="container">
+    <h2 style={{ color: '#f24521' }}>Where Can I Find EAs?</h2>
+    
+    <div className="alert alert-warning mt-4" role="alert">
+      ⚠️ FOREX.com is not responsible for any third-party EA software. Use at your own risk.
+    </div>
+  </div>
+</section>
+</>
   );
 };
 

@@ -71,7 +71,7 @@ const TradingViewFeaturesWithImage: React.FC = () => {
               src="/assets/tradingview-features-illustration.png"
               alt="TradingView Features Illustration"
               className="img-fluid"
-              style={{ borderRadius: '20px', maxWidth: '100%' }}
+              style={{ borderRadius: '20px', maxWidth: 'auto' }}
             />
           </div>
         </div>

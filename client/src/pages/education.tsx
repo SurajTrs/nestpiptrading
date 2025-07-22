@@ -4,6 +4,8 @@ import React from 'react';
 import { usePathname } from 'next/navigation';
 import MainNavbar from './MainNavbar';
 import Footer from './Footer';
+import TradingCourses from '@/components/Education/courses/TradingCourses';
+import BottomBanner from '@/components/Account/CompareTransparency/compareAccount/BottomBanner';
 
 const marketNavItems = [
   { icon: '/icons/Courses-icon.svg', label: 'Courses' },
@@ -114,6 +116,8 @@ const CoursesBanner: React.FC = () => {
         </div>
       </div>
     </section>
+    <TradingCourses/>
+    <BottomBanner/>
     <Footer/>
     </>
   );

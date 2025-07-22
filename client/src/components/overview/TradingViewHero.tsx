@@ -12,7 +12,7 @@ const TradingViewHero: React.FC = () => {
               src="/assets/tradingview-logo.jpg"
               alt="TradingView Logo"
               className="img-fluid"
-              style={{ maxWidth: '500px' }}
+              style={{ maxWidth: 'auto' }}
             />
           </div>
 

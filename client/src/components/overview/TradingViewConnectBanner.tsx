@@ -13,7 +13,7 @@ const TradingViewConnectBanner: React.FC = () => {
           How to trade on TradingView with your FOREX.com account
         </h2>
         <p className="mb-4" style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto' }}>
-          Did you know you can trade your FOREX.com account on TradingView through their browser, desktop, or mobile platforms? We will show you how to get started.
+          Did you know you can trade your NESTPIP.com account on TradingView through their browser, desktop, or mobile platforms? We will show you how to get started.
         </p>
         <a
           href="#connect-tradingview"

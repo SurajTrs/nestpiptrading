@@ -1,8 +1,9 @@
 {
-  "/markets/usd-chf/page": "app/markets/usd-chf/page.js",
+  "/education/live-virtual-events/page": "app/education/live-virtual-events/page.js",
+  "/education/glossary/page": "app/education/glossary/page.js",
+  "/education/quiz/page": "app/education/quiz/page.js",
+  "/about/about-us/page": "app/about/about-us/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/platforms-tools/platform-comparison/page": "app/platforms-tools/platform-comparison/page.js",
-  "/markets/us-tech-100/page": "app/markets/us-tech-100/page.js",
-  "/markets/us-sp-500/page": "app/markets/us-sp-500/page.js",
-  "/markets/germany-40/page": "app/markets/germany-40/page.js"
+  "/features/trade-prices/page": "app/features/trade-prices/page.js",
+  "/education/courses/page": "app/education/courses/page.js"
 }

@@ -14,7 +14,7 @@ const TradingViewExtraFeatures: React.FC = () => {
               src="/assets/fx-tradingview-screener.png" // or any relevant image representing both features
               alt="TradingView Screener & Alerts"
               className="img-fluid"
-              style={{ maxWidth: '450px', borderRadius: '16px' }}
+              style={{ maxWidth: 'auto', borderRadius: '16px' }}
             />
           </div>
 

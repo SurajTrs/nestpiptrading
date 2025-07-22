@@ -7,7 +7,7 @@ import HeroSection from '../components/HeroSection';
 import MarketTypes from '../components/MarketTypes';
 import WhyForex from '../components/WhyForex';
 import PushingForward from '../components/PushingForward';
-import ActiveTrader from '../components/ActiveTrader';
+import ActiveTrader from '../components/platformstools/PremiumTradingTools/ActiveTrader/ActiveTrader';
 
 import HowToGetStarted from '../components/HowToGetStarted';
 import WhatIsTradingView from '../components/WhatIsTradingView';
